@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "start": "vita"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.15"
+  }
+}
