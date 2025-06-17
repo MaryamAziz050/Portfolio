@@ -4393,16 +4393,16 @@ function Ls({activeSection: e}) {
                                 size: "icon",
                                 className: "md:hidden " + ("aboutus" === e ? "text-gray-900" : "projects" === e ? "bg-[#0f766e]" : "skills" === e ? "bg-white" : "bg-[#0f766e]"),
                                 children: b.jsx(We, {
-                                    className: "h-5 w-5"
+                                    className: "h-5 w-5 text-white"
                                 })
                             })
                         }), b.jsxs(li, {
                             side: "right",
                             className: "w-full sm:w-[300px] bg-[#0f766e] backdrop-blur-lg",
                             children: [b.jsx(ci, {
-                                className: "border-b border-green-900 pb-4",
+                                className: "border-b border-white pb-4",
                                 children: b.jsx(ui, {
-                                    className: "text-left",
+                                    className: "text-left text-white",
                                     children: "Navigation"
                                 })
                             }), b.jsx("nav", {
@@ -4417,10 +4417,10 @@ function Ls({activeSection: e}) {
                                     children: b.jsxs("div", {
                                         className: "flex items-center space-x-4 px-2 py-2 hover:bg-white active:bg-white rounded-md transition-colors border-b border-slate-900",
                                         children: [b.jsx("span", {
-                                            className: "text-sm text-gray-800",
+                                            className: "text-sm text-white",
                                             children: e.id
                                         }), b.jsx("span", {
-                                            className: "text-base font-bold",
+                                            className: "text-base font-bold text-white",
                                             children: e.name
                                         })]
                                     })
@@ -13234,11 +13234,7 @@ const Np = "data:image/svg+xml,%3csvg%20width='32'%20height='32'%20viewBox='0%20
     name: "Shopify",
     url: "data:image/svg+xml,%3Csvg class='bg-%5B%2395BF47%5D bg-opacity-25 rounded-%5B5px%5D px-%5B7px%5D py-%5B7px%5D' xmlns='http://www.w3.org/2000/svg' width='53' height='53' viewBox='0 0 33 38' fill='none'%3E%3Cpath d='M28.9082 7.20891C28.886 7.00992 28.7091 6.92148 28.5764 6.89937C28.4437 6.87726 25.7895 6.85515 25.7895 6.85515C25.7895 6.85515 23.5556 4.68839 23.3344 4.46729C23.1133 4.24619 22.693 4.31252 22.5161 4.35674C22.5161 4.35674 22.0958 4.4894 21.3881 4.7105C21.2775 4.33463 21.1005 3.87033 20.8572 3.40602C20.061 1.88044 18.9108 1.08449 17.4953 1.08449C17.4068 1.08449 17.2962 1.08449 17.2078 1.1066C17.1635 1.06238 17.1193 1.01816 17.0751 0.951827C16.4558 0.288532 15.6816 -0.0210052 14.7527 0.00110467C12.939 0.0453243 11.1474 1.3498 9.66554 3.69345C8.626 5.32957 7.85187 7.38579 7.63069 8.9777C5.5516 9.61888 4.09182 10.0611 4.0697 10.0832C3.03016 10.4148 2.98592 10.4369 2.85321 11.4319C2.74263 12.1615 0 33.4091 0 33.4091L23.0248 37.3888L33 34.9125C33 34.9125 28.9303 7.38579 28.9082 7.20891ZM20.2379 5.06426C19.7071 5.21903 19.1099 5.41801 18.4464 5.617C18.4242 4.7105 18.3137 3.42813 17.8934 2.32264C19.2868 2.58796 19.9504 4.13564 20.2379 5.06426ZM17.252 5.99287C16.0355 6.36874 14.7306 6.76671 13.4035 7.1868C13.7795 5.77177 14.4873 4.35674 15.3499 3.42813C15.6816 3.07437 16.124 2.6985 16.6548 2.47741C17.1635 3.51657 17.252 4.99793 17.252 5.99287ZM14.7748 1.21715C15.195 1.21715 15.5489 1.30558 15.8586 1.50457C15.372 1.74778 14.8854 2.12365 14.443 2.61006C13.2929 3.84822 12.4082 5.74966 12.0543 7.60689C10.9484 7.93854 9.88672 8.27018 8.89141 8.57972C9.55495 5.66122 11.9879 1.30558 14.7748 1.21715Z' fill='%2395BF47' /%3E%3Cpath d='M28.5764 6.89842C28.4437 6.87631 25.7895 6.8542 25.7895 6.8542C25.7895 6.8542 23.5556 4.68744 23.3344 4.46634C23.246 4.3779 23.1354 4.33368 23.0248 4.33368V37.3879L33 34.9116C33 34.9116 28.9303 7.40695 28.9082 7.20796C28.8639 7.00897 28.7091 6.92053 28.5764 6.89842Z' fill='%235E8E3E' /%3E%3Cpath d='M17.4953 12.0292L16.3452 16.3627C16.3452 16.3627 15.0624 15.7657 13.5141 15.8763C11.2581 16.0089 11.236 17.424 11.2581 17.7998C11.3908 19.7455 16.4779 20.1656 16.7654 24.6981C16.9866 28.2799 14.8633 30.712 11.811 30.911C8.13944 31.1321 6.12671 28.9874 6.12671 28.9874L6.90084 25.693C6.90084 25.693 8.93569 27.2186 10.5503 27.1302C11.612 27.0639 11.988 26.2016 11.9437 25.5825C11.7889 23.062 7.63073 23.1946 7.36531 19.0601C7.14413 15.5667 9.4444 12.0292 14.5094 11.6975C16.5 11.5206 17.4953 12.0292 17.4953 12.0292Z' fill='white' /%3E%3C/svg%3E"
   },
-  {
-    name: "Vue.js",
-    url: "data:image/svg+xml,%3Csvg class='bg-%5B%2341B883%5D bg-opacity-25 rounded-%5B5px%5D px-%5B7px%5D py-%5B7px%5D' xmlns='http://www.w3.org/2000/svg' width='53' height='53' viewBox='0 0 36 36' fill='none'%3E%3Cpath d='M22.1564 2.44501L17.9995 9.62966L13.8427 2.44501H0L17.9995 33.5558L35.9991 2.44501H22.1564Z' fill='%2341B883' /%3E%3Cpath d='M22.1564 2.44501L17.9995 9.62966L13.8427 2.44501L7.19971 2.44502L17.9994 21.1111L28.7992 2.44502L22.1564 2.44501Z' fill='%2334495E' /%3E%3C/svg%3E"
-  }
-  ,,
+  
   {
     name: "Liquid",
     url: "data:image/svg+xml,%3Csvg class='bg-%5B%23FFFFFF%5D bg-opacity-25 rounded-%5B5px%5D px-%5B7px%5D py-%5B7px%5D' xmlns='http://www.w3.org/2000/svg' width='53' height='53' viewBox='0 0 41 41' fill='none'%3E%3Ccircle cx='20.5' cy='20.5' r='20' fill='%23D9D9D9' stroke='%23003272' /%3E%3Cpath d='M10.68 22.695V23.919H6.54V18.222H7.98V22.695H10.68ZM12.7525 23.919H11.3125V18.222H12.7525V23.919ZM13.6549 21.066C13.6549 20.34 13.7359 19.764 13.8979 19.338C14.0659 18.912 14.3509 18.606 14.7529 18.42C15.1609 18.234 15.7279 18.141 16.4539 18.141C16.9999 18.141 17.4529 18.192 17.8129 18.294C18.1729 18.396 18.4579 18.561 18.6679 18.789C18.8779 19.017 19.0249 19.32 19.1089 19.698C19.1989 20.07 19.2439 20.526 19.2439 21.066C19.2439 21.618 19.1989 22.083 19.1089 22.461C19.0189 22.833 18.8689 23.133 18.6589 23.361C18.4489 23.589 18.1579 23.754 17.7859 23.856V23.901C17.9659 24.099 18.1279 24.303 18.2719 24.513C18.4219 24.723 18.5509 24.924 18.6589 25.116V25.143H17.0209L16.3819 24C15.6739 23.994 15.1219 23.898 14.7259 23.712C14.3299 23.52 14.0509 23.211 13.8889 22.785C13.7329 22.359 13.6549 21.786 13.6549 21.066ZM16.4539 22.74C16.8379 22.74 17.1259 22.692 17.3179 22.596C17.5099 22.5 17.6389 22.332 17.7049 22.092C17.7709 21.846 17.8039 21.504 17.8039 21.066C17.8039 20.634 17.7709 20.298 17.7049 20.058C17.6389 19.818 17.5099 19.65 17.3179 19.554C17.1259 19.452 16.8379 19.401 16.4539 19.401C16.0759 19.401 15.7879 19.452 15.5899 19.554C15.3979 19.65 15.2659 19.818 15.1939 20.058C15.1279 20.298 15.0949 20.634 15.0949 21.066C15.0949 21.504 15.1279 21.846 15.1939 22.092C15.2659 22.332 15.3979 22.5 15.5899 22.596C15.7879 22.692 16.0759 22.74 16.4539 22.74ZM25.0775 18.222V21.579C25.0775 22.167 25.0055 22.638 24.8615 22.992C24.7235 23.346 24.4805 23.604 24.1325 23.766C23.7845 23.922 23.2925 24 22.6565 24C21.9965 24 21.4835 23.922 21.1175 23.766C20.7575 23.604 20.5055 23.346 20.3615 22.992C20.2175 22.638 20.1455 22.167 20.1455 21.579V18.222H21.5855V21.552C21.5855 21.858 21.6155 22.098 21.6755 22.272C21.7355 22.446 21.8435 22.569 21.9995 22.641C22.1555 22.707 22.3745 22.74 22.6565 22.74C22.9205 22.74 23.1215 22.707 23.2595 22.641C23.4035 22.569 23.5025 22.446 23.5565 22.272C23.6105 22.098 23.6375 21.858 23.6375 21.552V18.222H25.0775ZM27.5972 23.919H26.1572V18.222H27.5972V23.919ZM28.6796 23.919V18.222H31.1726C31.6706 18.222 32.0876 18.264 32.4236 18.348C32.7596 18.426 33.0296 18.567 33.2336 18.771C33.4376 18.975 33.5846 19.26 33.6746 19.626C33.7646 19.986 33.8096 20.451 33.8096 21.021C33.8096 21.615 33.7646 22.101 33.6746 22.479C33.5846 22.857 33.4376 23.151 33.2336 23.361C33.0296 23.571 32.7596 23.718 32.4236 23.802C32.0876 23.88 31.6706 23.919 31.1726 23.919H28.6796ZM30.9656 19.437H30.1196V22.704H30.9656C31.3136 22.704 31.5866 22.665 31.7846 22.587C31.9886 22.509 32.1326 22.35 32.2166 22.11C32.3066 21.87 32.3516 21.507 32.3516 21.021C32.3516 20.559 32.3066 20.217 32.2166 19.995C32.1326 19.767 31.9886 19.617 31.7846 19.545C31.5866 19.473 31.3136 19.437 30.9656 19.437Z' fill='%23003272' /%3E%3C/svg%3E"
@@ -13320,7 +13316,7 @@ function Dp() {
         })
     })
 }
-const Markloops="./assets/img/markloops_logo.jpg", ConversionsKing="./assets/img/conversions_king_logo.jpg", InfinityCreatives="./assets/img/infinity_creative_logo.jpg"
+const Markloops="./assets/img/markloops_logo-Photoroom.png", ConversionsKing="./assets/img/conversions_king_logo-Photoroom.png", InfinityCreatives="./assets/img/infinity_creative_logo-Photoroom.png"
 ,Ip = [{
     title: "Shopify Developer",
     company: "Markloops Creative Agency",
@@ -13387,7 +13383,7 @@ function Op() {
                             children: b.jsxs("div", {
                                 className: "flex items-center gap-4",
                                 children: [b.jsx("div", {
-                                    className: "flex h-12 w-12 items-center justify-center rounded-full bg-gray-500 group-hover:bg-gray-900 text-black transition-colors duration-300",
+                                    className: "flex h-12 w-12 items-center justify-center rounded-[7px] bg-gray-200 text-black transition-colors duration-300",
                                     children: b.jsx("img", {
                                         src: e.icon,
                                         alt: ""
@@ -14559,6 +14555,31 @@ const $m = {
   ]
 }
 , {
+  slug: "cro-for-shopify-stores",
+  title: "How Conversion Rate Optimization (CRO) Boosts Your Shopify Store’s Success",
+  author: "Durgesh Bachhav",
+  date: "2025-06-14",
+  readingTime: "7 min",
+  topic: "SHOPIFY DEVELOPMENT",
+    image: "./assets/img/ChatGPT Image.png",
+  content: "Your Shopify store's success depends on more than just heavy traffic — it's about turning those visitors into paying customers. Conversion Rate Optimization (CRO) focuses on improving every step of your buyer's journey, from landing on your homepage to clicking “Buy Now.” In this guide, we’ll walk you through proven techniques to maximize conversions: designing clear calls to action, simplifying your checkout process, optimizing product pages, and employing social proof elements. We'll also highlight how custom sections, fast-loading components, and responsive design all contribute to a smoother buying experience. By applying these strategies, you can increase your conversion rate and drive more revenue without spending more on marketing.",
+  publishDate: "14 june, 2025",
+  metaTitle: "How Conversion Rate Optimization (CRO) Boosts Your Shopify Success",
+  metaDescription: "Learn how CRO techniques can maximize conversions in your Shopify store. From clear calls to action to fast-loading components, discover strategies to grow your revenue.",
+  summary: "A comprehensive guide to Conversion Rate Optimization (CRO) for Shopify — techniques to maximize conversions without increasing your ad spend.",
+  tags: [
+    "CRO",
+    "Shopify",
+    "Conversions",
+    "Design",
+    "E-commerce"
+  ],
+  categories: [
+    "Technology",
+    "Web Development"
+  ]
+}
+,{
   slug: "shopify-speed-optimization-techniques",
   title: "Shopify Speed Optimization Techniques That Actually Work",
   author: "Ameer Hamza",
@@ -14950,8 +14971,8 @@ b.jsxs(b.Fragment, {
                         children: ["Passionate", " ", b.jsx("span", {
                             className: "font-semibold text-[#0f766e]",
                             children: "Shopify Developer"
-                        }), " ", "with 3+ years of experience building custom Shopify solutions, tailored to your unique business needs. From designing one-of-a-kind themes that reflect your brand’s identity to integrating seamless functionality and optimizing user experience, I ensure your online store stands out.", " ", b.jsx("span", {
-                            className: "font-semibold text-green-400",
+                        }), " ", "with 2+ years of experience building custom Shopify solutions, tailored to your unique business needs. From designing one-of-a-kind themes that reflect your brand’s identity to integrating seamless functionality and optimizing user experience, I ensure your online store stands out.", " ", b.jsx("span", {
+                            className: "font-semibold text-[#0f766e]",
                             children: "Let’s collaborate to build"
                         }), " ", "a store that not only looks great but also drives conversions and delivers results."]
                     })
@@ -14985,10 +15006,10 @@ b.jsxs(b.Fragment, {
                     children: b.jsxs("p", {
                         className: "text-xl md:text-2xl lg:text-3xl leading-relaxed text-gray-800",
                         children: ["With expertise in", " ", b.jsx("span", {
-                            className: "font-semibold text-green-400",
-                            children: "HTML, CSS, JavaScript, Tailwind, vue.js, Shopify Liquid and REST APIs."
+                            className: "font-semibold text-[#0f766e]",
+                            children: "HTML, CSS, JavaScript, Tailwind, Shopify Liquid."
                         }), ",", " ", b.jsx("span", {
-                            className: "font-semibold text-green-400",
+                            className: "font-semibold text-[#0f766e]",
                             children: ""
                         }), "I specialize in building and customizing high-performing Shopify stores."]
                     })
@@ -15871,7 +15892,7 @@ function mf() {
       , p = s.useRef(null)
       , m = () => {
         try {
-            window.open("https://drive.google.com/uc?export=download&id=18awT7vHoIlg8uqKUg1g3vglle_riUwlN", "_blank")
+            window.open("https://drive.google.com/uc?export=download&id=13q_6wpIteM4lI6H__BFf5omoefybhxjY", "_blank")
         } catch (e) {
             alert("Sorry, there was an error downloading the resume. Please try again later.")
         }
