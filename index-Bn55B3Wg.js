@@ -4350,7 +4350,7 @@ function Ls({activeSection: e}) {
                     children: [b.jsx(ks, {
                         to: "/",
                         children: b.jsx("div", {
-                            className: "flex-shrink-0 bg-[#0f766e] rounded-full",
+                            className: "flex-shrink-0 bg-[#280066] rounded-full",
                             children: b.jsx(Oe, {
                                 size: 40,
                                 className: "text-secondary"
@@ -4364,7 +4364,7 @@ function Ls({activeSection: e}) {
                                 to: t.href,
                                 children: b.jsx(Re, {
                                     variant: "ghost",
-                                    className: "text-sm transition-all duration-300 font-medium " + ("aboutus" === e ? "text-gray-900" : "projects" === e ? "text-[#0f766e]" : "skills" === e ? "text-white" : "text-gray-900"),
+                                    className: "text-sm transition-all duration-300 font-medium " + ("aboutus" === e ? "text-gray-900" : "projects" === e ? "text-[#280066]" : "skills" === e ? "text-white" : "text-gray-900"),
                                     onClick: o,
                                     children: t.name
                                 })
@@ -4378,7 +4378,7 @@ function Ls({activeSection: e}) {
                         children: b.jsx(Re, {
                             variant: "ghost",
                             size: "icon",
-                            className: "mr-2 bg-[#0f766e] text-white",
+                            className: "mr-2 bg-[#280066] text-white",
                             children: b.jsx(Be, {
                                 className: "h-5 w-5"
                             })
@@ -4391,14 +4391,14 @@ function Ls({activeSection: e}) {
                             children: b.jsx(Re, {
                                 variant: "ghost",
                                 size: "icon",
-                                className: "md:hidden " + ("aboutus" === e ? "text-gray-900" : "projects" === e ? "bg-[#0f766e]" : "skills" === e ? "bg-white" : "bg-[#0f766e]"),
+                                className: "md:hidden " + ("aboutus" === e ? "text-gray-900" : "projects" === e ? "bg-[#280066]" : "skills" === e ? "bg-white" : "bg-[#280066]"),
                                 children: b.jsx(We, {
                                     className: "h-5 w-5 text-white"
                                 })
                             })
                         }), b.jsxs(li, {
                             side: "right",
-                            className: "w-full sm:w-[300px] bg-[#0f766e] backdrop-blur-lg",
+                            className: "w-full sm:w-[300px] bg-[#280066] backdrop-blur-lg",
                             children: [b.jsx(ci, {
                                 className: "border-b border-white pb-4",
                                 children: b.jsx(ui, {
@@ -12183,7 +12183,7 @@ function pp() {
                                 transition: {
                                     delay: .2
                                 },
-                                className: "inline-block px-4 py-1.5 rounded-full bg-[#0f766e]/50 text-primary text-sm font-medium",
+                                className: "inline-block px-4 py-1.5 rounded-full bg-[#280066]/50 text-primary text-sm font-medium",
                                 children: "🎉 | Available for freelance work"
                             }), b.jsxs(yh.h1, {
                                 initial: {
@@ -12197,7 +12197,7 @@ function pp() {
                                 },
                                 className: "text-4xl font-bold  text-primary sm:text-5xl lg:text-6xl ",
                                 children: ["Hi, I'm Ameer Hamza", b.jsx("span", {
-                                    className: "text-[#0f766e]",
+                                    className: "text-[#280066]",
                                     children: "."
                                 })]
                             }), b.jsxs(yh.div, {
@@ -12212,7 +12212,7 @@ function pp() {
                                 },
                                 className: "text-2xl sm:text-3xl lg:text-4xl text-black font-medium",
                                 children: ["I build", " ", b.jsx(dp, {
-                                    className: "bg-gradient-to-r from-[#0f766e] to-green-400 text-white px-4 py-2 rounded-xl shadow-lg",
+                                    className: "bg-gradient-to-r from-[#280066] to-[#5F00F8] text-white px-4 py-2 rounded-xl shadow-lg",
                                     words: ["creative", "interactive", "beautiful", "modern", "responsive", "high quality", "elegant"]
                                 }), " ", b.jsx("span", {
                                     className: "block sm:inline text-black",
@@ -12936,7 +12936,7 @@ function jp() {
                         className: "text-sm",
                         children: "Overview"
                     }), b.jsx("p", {
-                        className: "text-[#0f766e]",
+                        className: "text-[#280066]",
                         children: "Who am I"
                     })]
                 }), b.jsx(yh.h1, {
@@ -12989,7 +12989,7 @@ function jp() {
                     className: "pt-4",
                     children: b.jsx(Re, {
                         variant: "link",
-                        className: "group px-4 text-[#0f766e] rounded-full hover:border-2 border-[#0f766e]",
+                        className: "group px-4 text-[#280066] rounded-full hover:border-2 border-[#280066]",
                         asChild: !0,
                         children: b.jsxs(ks, {
                             
@@ -13107,14 +13107,14 @@ function Mp() {
                 children: [b.jsxs("div", {
                     className: "",
                     children: [b.jsx("h2", {
-                        className: "text-[#0f766e] text-4xl font-bold",
+                        className: "text-[#280066] text-4xl font-bold",
                         children: "FEATURED PROJECTS"
                     }), b.jsx("p", {
                         className: "text-gray-400 text-lg",
                         children: "Selected Works"
                     })]
                 }), b.jsxs(ks, {
-                    className: "flex gap-2 hover:border-b border-[#12978c] hover:text-[#12978c]",
+                    className: "flex gap-2 hover:border-b border-[#5F00F8] hover:text-[#5F00F8]",
                     to: "/projects",
                     children: ["See All Projects", b.jsx(yh.div, {
                         whileHover: {
@@ -13159,13 +13159,13 @@ function Mp() {
                             children: e.alt
                         })]
                     }), b.jsxs("div", {
-                        className: "flex items-center justify-between w-full border-b pb-4 group-hover:border-[#0f766e] transition-colors duration-300",
+                        className: "flex items-center justify-between w-full border-b pb-4 transition-colors duration-300",
                         children: [b.jsx("h2", {
-                            className: "text-xl md:text-3xl lg:text-3xl font-light group-hover:text-[#0f766e] transition-colors duration-300",
+                            className: "text-xl md:text-3xl lg:text-3xl font-light group-hover:text-[#5F00F8] transition-colors duration-300",
                             children: e.description
                         }), b.jsxs(ks, {
                             to: `/projects/${e.slug}`,
-                            className: "inline-flex items-center text-[#0f766e] hover:text-white transition-colors",
+                            className: "inline-flex items-center text-[#5F00F8] hover:text-white transition-colors",
                             whileHover: {
                                 x: 5
                             },
@@ -13188,7 +13188,7 @@ function Mp() {
             children: e && b.jsx(yh.img, {
                 src: e.src,
                 alt: e.alt,
-                className: "fixed border-4 border-[#12978c]  object-cover pointer-events-none z-10 w-96 rounded-lg shadow-lg",
+                className: "fixed border-4 border-[#5F00F8]  object-cover pointer-events-none z-10 w-96 rounded-lg shadow-lg",
                 style: {
                     left: `${n.x}px`,
                     top: `${n.y}px`,
@@ -13287,7 +13287,7 @@ function Dp() {
                         variants: n,
                         className: "space-y-2 text-center",
                         children: [b.jsx("p", {
-                            className: "text-4xl font-bold text-[#0f766e]",
+                            className: "text-4xl font-bold text-[#280066]",
                             children: "🎉 SUPERPOWER 🎉"
                         }), b.jsx("p", {
                             className: "text-sm font-bold text-[#bababb]",
@@ -13358,7 +13358,7 @@ function Op() {
                 transition: {
                     duration: .5
                 },
-                className: "text-4xl font-bold text-[#0f766e]  mb-10 tracking-wider",
+                className: "text-4xl font-bold text-[#280066]  mb-10 tracking-wider",
                 children: "EXPERIENCE"
             }), b.jsx("div", {
                 className: "",
@@ -13409,7 +13409,7 @@ function Op() {
                             }), b.jsx("div", {
                                 className: "flex flex-wrap gap-2",
                                 children: e.technologies.map(( (e, t) => b.jsx("span", {
-                                    className: "inline-flex items-center px-4 py-1.5 rounded-full text-sm font-bold text-white hover:text-gray-800 bg-[#0f766e] hover:bg-gray-300 cursor-pointer transition-colors duration-300",
+                                    className: "inline-flex items-center px-4 py-1.5 rounded-full text-sm font-bold text-white hover:text-gray-800 bg-[#280066] hover:bg-gray-300 cursor-pointer transition-colors duration-300",
                                     children: e
                                 }, t)))
                             })]
@@ -13423,7 +13423,7 @@ function Op() {
     })
 }
 const Vp = () => b.jsxs("section", {
-    className: "grid place-content-center gap-2 bg-[#0f766e] px-8 py-24 text-white rounded-t-[80px]",
+    className: "grid place-content-center gap-2 bg-[#280066] px-8 py-24 text-white rounded-t-[80px]",
     children: [b.jsx(Fp, {
         href: "https://www.linkedin.com/in/ameer-hamza-81383025b/",
         children: "Linkedin"
@@ -13518,7 +13518,7 @@ function zp({onSectionChange: e}) {
                     id: "experience",
                     children: b.jsx(Op, {})
                 }), b.jsx("section", {
-                    className: "bg-[#0f766e] rounded-t-[80px]  sticky top-10 md:top-0",
+                    className: "bg-[#280066] rounded-t-[80px]  sticky top-10 md:top-0",
                     id: "links",
                     children: b.jsx(Vp, {})
                 })]
@@ -14291,7 +14291,7 @@ function zm() {
         children: [b.jsx("div", {
             className: "absolute left-0 right-0 top-0 z-50 transition-all duration-300 ease-in-out " + (e ? "translate-y-0" : "-translate-y-full"),
             children: b.jsxs("div", {
-                className: "flex w-full items-center gap-x-6 bg-[#0f766e] px-6 py-4 sm:px-3.5 sm:before:flex-1",
+                className: "flex w-full items-center gap-x-6 bg-[#280066] px-6 py-4 sm:px-3.5 sm:before:flex-1",
                 children: [b.jsxs("div", {
                     className: "flex items-center text-sm font-medium leading-6 text-white",
                     children: [b.jsx("p", {
@@ -14481,7 +14481,7 @@ function Hm() {
             children: b.jsxs("h2", {
                 className: "relative z-0 text-[14vw] font-black text-neutral-800 md:text-[200px]",
                 children: ["PROJECTS", b.jsx("span", {
-                    className: "text-[#0f766e]",
+                    className: "text-[#280066]",
                     children: "."
                 })]
             })
@@ -14511,7 +14511,7 @@ function Hm() {
                                 src: null == e ? void 0 : e.image,
                                 alt: "img"
                             }, e.id), b.jsx("div", {
-                                className: "absolute top-4 right-4 bg-[#12978c] p-2 rounded-3xl",
+                                className: "absolute top-4 right-4 bg-[#5F00F8] p-2 rounded-3xl",
                                 children: b.jsx($e, {})
                             })]
                         }))))
@@ -14794,7 +14794,7 @@ function qm() {
                     },
                     className: "relative z-0 text-[14vw] font-black text-foreground md:text-[200px] text-center",
                     children: ["BLOGS", b.jsx("span", {
-                        className: "text-[#0f766e]",
+                        className: "text-[#280066]",
                         children: "."
                     })]
                 })
@@ -14829,7 +14829,7 @@ function qm() {
                                         className: "text-xl font-semibold line-clamp-2 mb-2",
                                         children: e.title
                                     }), b.jsxs("div", {
-                                        className: "flex hover:border-2 p-4 absolute bottom-3 bg-[#12978c] rounded-2xl border-[#0f766e] text-gray-900",
+                                        className: "flex hover:border-2 p-4 absolute bottom-3 bg-[#280066] rounded-2xl border-[#5F00F8] text-white",
                                         children: [b.jsx("p", {
                                             children: "Read More"
                                         }), " ", b.jsx(Ie, {})]
@@ -14903,7 +14903,7 @@ b.jsxs(b.Fragment, {
         children: [b.jsxs("h2", {
             className: "relative z-0 text-[14vw] font-black text-neutral-800 md:text-[200px]",
             children: ["Hamza", b.jsx("span", {
-                className: "text-[#0f766e]",
+                className: "text-[#280066]",
                 children: "."
             })]
         }), b.jsx(Xm, {})]
@@ -14921,7 +14921,7 @@ b.jsxs(b.Fragment, {
                 children: b.jsxs("div", {
                     className: "text-3xl md:text-4xl lg:text-5xl font-bold leading-tight text-gray-900 p-8",
                     children: ["I'm Ameer Hamza,", " ", b.jsx(dp, {
-                        className: "bg-gradient-to-r from-[#0f766e] to-green-400 text-white px-4 py-2 rounded-xl shadow-lg",
+                        className: "bg-gradient-to-r from-[#280066] to-[#5F00F8] text-white px-4 py-2 rounded-xl shadow-lg",
                         words: ["Creative", "Innovative", "Dynamic", "Interactive", "Visionary", "Passionate", "Adaptive", "Tech-Savvy", "Problem-Solving", "Skilled", "Experienced", "Efficient", "Impactful", "Curious", "Collaborative", "Frontend", "Backend", "Full-Stack", "Freelance", "Pixel-Perfect", "Cutting-Edge", "Scalable", "Empathetic", "Versatile", "Growth-Focused"]
                     }), " ", b.jsx("span", {
                         className: "block mt-4",
@@ -14939,10 +14939,10 @@ b.jsxs(b.Fragment, {
                     children: b.jsxs("p", {
                         className: "text-xl md:text-2xl lg:text-3xl leading-relaxed text-gray-800",
                         children: ["Passionate", " ", b.jsx("span", {
-                            className: "font-semibold text-[#0f766e]",
+                            className: "font-semibold text-[#280066]",
                             children: "Shopify Developer"
                         }), " ", "with 2+ years of experience building custom Shopify solutions, tailored to your unique business needs. From designing one-of-a-kind themes that reflect your brand’s identity to integrating seamless functionality and optimizing user experience, I ensure your online store stands out.", " ", b.jsx("span", {
-                            className: "font-semibold text-[#0f766e]",
+                            className: "font-semibold text-[#280066]",
                             children: "Let’s collaborate to build"
                         }), " ", "a store that not only looks great but also drives conversions and delivers results."]
                     })
@@ -14959,7 +14959,7 @@ b.jsxs(b.Fragment, {
                     children: b.jsxs("p", {
                         className: "text-xl md:text-2xl lg:text-3xl leading-relaxed text-gray-800",
                         children: ["As a", " ", b.jsx("span", {
-                            className: "font-semibold text-[#0f766e]",
+                            className: "font-semibold text-[#280066]",
                             children: "Shopify Developer"
                         }), ", I’ve successfully designed and developed over 12 Shopify stores, turning client ideas into fully functional, user-centric solutions. From custom themes to plugins and extensions, I specialize in crafting Shopify stores that not only stand out visually but also deliver exceptional user experiences."]
                     })
@@ -14976,10 +14976,10 @@ b.jsxs(b.Fragment, {
                     children: b.jsxs("p", {
                         className: "text-xl md:text-2xl lg:text-3xl leading-relaxed text-gray-800",
                         children: ["With expertise in", " ", b.jsx("span", {
-                            className: "font-semibold text-[#0f766e]",
+                            className: "font-semibold text-[#280066]",
                             children: "HTML, CSS, JavaScript, Tailwind, Shopify Liquid."
                         }), ",", " ", b.jsx("span", {
-                            className: "font-semibold text-[#0f766e]",
+                            className: "font-semibold text-[#280066]",
                             children: ""
                         }), "I specialize in building and customizing high-performing Shopify stores."]
                     })
@@ -15088,7 +15088,7 @@ b.jsxs(b.Fragment, {
             children: b.jsxs("h2", {
                 className: "relative z-0 text-[14vw] font-black text-[#333] md:text-[200px]",
                 children: ["Contact", b.jsx("span", {
-                    className: "text-[#0f766e]",
+                    className: "text-[#280066]",
                     children: "."
                 })]
             })
@@ -15114,7 +15114,7 @@ b.jsxs(b.Fragment, {
                         children: [b.jsx(_e, {}), "Email Me"]
                     }), b.jsx(ks, {
                         to: "https://api.whatsapp.com/send?phone=923142090844&text=Hello%20there!",
-                        className: je("bg-[#0f766e] text-white px-6 py-3 rounded-full hover:bg-[#12978c] font-semibold transition-colors", "lenis-link"),
+                        className: je("bg-[#280066] text-white px-6 py-3 rounded-full hover:bg-[#5F00F8] font-semibold transition-colors", "lenis-link"),
                         children: "WhatsApp"
                     })]
                 })]
@@ -15191,7 +15191,7 @@ b.jsxs(b.Fragment, {
                         },
                         className: "relative text-center z-0 text-[10vw] font-black text-neutral-800 md:text-[60px]",
                         children: [t.name, b.jsx("span", {
-                            className: "text-[#0f766e]",
+                            className: "text-[#280066]",
                             children: "."
                         })]
                     })
@@ -15224,7 +15224,7 @@ b.jsxs(b.Fragment, {
                     }].map(( (e, t) => b.jsxs("div", {
                         className: "text-center",
                         children: [b.jsx("h3", {
-                            className: "text-2xl font-bold text-[#0f766e]",
+                            className: "text-2xl font-bold text-[#280066]",
                             children: e.value
                         }), b.jsx("p", {
                             className: "text-gray-600",
@@ -15275,7 +15275,7 @@ b.jsxs(b.Fragment, {
                                     }), b.jsx("ul", {
                                         className: "flex flex-wrap gap-2",
                                         children: t.techStack.map(( (e, t) => b.jsx("li", {
-                                            className: "bg-[#12978c] p-1 rounded-lg px-2 ",
+                                            className: "bg-[#5F00F8] p-1 rounded-lg px-2 ",
                                             children: e
                                         }, t)))
                                     })]
@@ -15341,7 +15341,7 @@ b.jsxs(b.Fragment, {
                                 href: `https://${t.liveLink}`,
                                 target: "_blank",
                                 rel: "noopener noreferrer",
-                                className: "inline-block bg-[#0f766e] text-white px-6 py-3 rounded-full font-semibold hover:bg-orange-600 transition-colors",
+                                className: "inline-block bg-[#280066] text-white px-6 py-3 rounded-full font-semibold hover:bg-[#5F00F8] transition-colors",
                                 children: "Visit Website"
                             })]
                         })]
@@ -15427,7 +15427,7 @@ function nf() {
                 children: [b.jsxs("h2", {
                     className: "relative text-center max-w-4xl mx-auto z-0 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-neutral-800",
                     children: [t.title, b.jsx("span", {
-                        className: "text-[#0f766e]",
+                        className: "text-[#280066]",
                         children: "."
                     })]
                 }), b.jsx("p", {
@@ -15480,7 +15480,7 @@ function nf() {
                             className: "grid grid-cols-2 gap-6 md:gap-8",
                             children: [b.jsxs("div", {
                                 children: [b.jsx("p", {
-                                    className: "mb-2 text-orange-400 font-medium",
+                                    className: "mb-2 text-[#5F00F8] font-medium",
                                     children: "TOPIC NAME"
                                 }), b.jsx("p", {
                                     className: "font-medium text-neutral-800",
@@ -15488,7 +15488,7 @@ function nf() {
                                 })]
                             }), b.jsxs("div", {
                                 children: [b.jsx("p", {
-                                    className: "mb-2 text-orange-400 font-medium",
+                                    className: "mb-2 text-[#5F00F8] font-medium",
                                     children: "READING TIME"
                                 }), b.jsx("p", {
                                     className: "font-medium text-neutral-800",
@@ -15496,7 +15496,7 @@ function nf() {
                                 })]
                             }), b.jsxs("div", {
                                 children: [b.jsx("p", {
-                                    className: "mb-2 text-orange-400 font-medium",
+                                    className: "mb-2 text-[#5F00F8] font-medium",
                                     children: "PUBLISH DATE"
                                 }), b.jsx("p", {
                                     className: "font-medium text-neutral-800",
@@ -15504,7 +15504,7 @@ function nf() {
                                 })]
                             }), b.jsxs("div", {
                                 children: [b.jsx("p", {
-                                    className: "mb-2 text-orange-400 font-medium",
+                                    className: "mb-2 text-[#5F00F8] font-medium",
                                     children: "CATEGORIES"
                                 }), t.categories.map(( (e, t) => b.jsx("p", {
                                     className: "font-medium text-neutral-800",
@@ -15527,7 +15527,7 @@ function nf() {
                                 ease: "easeOut"
                             },
                             children: t.tags.map(( (e, t) => b.jsx("span", {
-                                className: "rounded-full bg-gradient-to-r from-[#0f766e] to-orange-300 px-4 py-1.5 text-sm text-white font-medium",
+                                className: "rounded-full bg-gradient-to-r from-[#280066] to-[#5F00F8] px-4 py-1.5 text-sm text-white font-medium",
                                 children: e
                             }, t)))
                         })]
@@ -15537,7 +15537,7 @@ function nf() {
                 className: "max-w-6xl mx-auto px-4 py-8 md:py-12 flex  sm:flex-row justify-between items-center gap-4",
                 children: [o && b.jsxs(ks, {
                     to: `/blogs/${o.slug}`,
-                    className: "flex w-full sm:w-auto items-center justify-center sm:justify-start px-6 py-3 bg-orange-100 hover:bg-orange-200 rounded-full text-orange-600 hover:text-orange-700 transition-colors duration-300 ease-in-out",
+                    className: "flex w-full sm:w-auto items-center justify-center sm:justify-start px-6 py-3 bg-[#5F00F8] hover:bg-[#280066] rounded-full text-white  transition-colors duration-300 ease-in-out",
                     children: [b.jsx(Ve, {
                         className: "w-5 h-5 mr-2 flex-shrink-0"
                     }), b.jsx("span", {
@@ -15546,7 +15546,7 @@ function nf() {
                     })]
                 }), i && b.jsxs(ks, {
                     to: `/blogs/${i.slug}`,
-                    className: "flex w-full sm:w-auto items-center justify-center sm:justify-end px-6 py-3 bg-orange-100 hover:bg-orange-200 rounded-full text-orange-600 hover:text-orange-700 transition-colors duration-300 ease-in-out",
+                    className: "flex w-full sm:w-auto items-center justify-center sm:justify-end px-6 py-3 bg-[#5F00F8] hover:bg-[#280066] rounded-full text-white  transition-colors duration-300 ease-in-out",
                     children: [b.jsx("span", {
                         className: "truncate",
                         children: "Next"
