@@ -4364,7 +4364,7 @@ function Ls({activeSection: e}) {
                                 to: t.href,
                                 children: b.jsx(Re, {
                                     variant: "ghost",
-                                    className: "text-sm transition-all duration-300 font-medium " + ("aboutus" === e ? "text-gray-900" : "projects" === e ? "text-[#280066]" : "skills" === e ? "text-white" : "text-gray-900"),
+                                    className: "text-sm transition-all duration-300 font-medium " + ("aboutus" === e ? "text-gray-900" : "projects" === e ? "text-white" : "skills" === e ? "text-white" : "text-gray-900"),
                                     onClick: o,
                                     children: t.name
                                 })
@@ -4391,7 +4391,7 @@ function Ls({activeSection: e}) {
                             children: b.jsx(Re, {
                                 variant: "ghost",
                                 size: "icon",
-                                className: "md:hidden " + ("aboutus" === e ? "text-gray-900" : "projects" === e ? "bg-[#280066]" : "skills" === e ? "bg-white" : "bg-[#280066]"),
+                                className: "md:hidden " + ("aboutus" === e ? "text-gray-900" : "projects" === e ? "bg-[#505050]" : "skills" === e ? "bg-white" : "bg-[#280066]"),
                                 children: b.jsx(We, {
                                     className: "h-5 w-5 text-white"
                                 })
@@ -13107,7 +13107,7 @@ function Mp() {
                 children: [b.jsxs("div", {
                     className: "",
                     children: [b.jsx("h2", {
-                        className: "text-[#280066] text-4xl font-bold",
+                        className: "text-white text-4xl font-bold",
                         children: "FEATURED PROJECTS"
                     }), b.jsx("p", {
                         className: "text-gray-400 text-lg",
@@ -14511,7 +14511,7 @@ function Hm() {
                                 src: null == e ? void 0 : e.image,
                                 alt: "img"
                             }, e.id), b.jsx("div", {
-                                className: "absolute top-4 right-4 bg-[#5F00F8] p-2 rounded-3xl",
+                                className: "absolute top-4 right-4 bg-[#280066] p-2 text-white rounded-3xl",
                                 children: b.jsx($e, {})
                             })]
                         }))))
@@ -15275,7 +15275,7 @@ b.jsxs(b.Fragment, {
                                     }), b.jsx("ul", {
                                         className: "flex flex-wrap gap-2",
                                         children: t.techStack.map(( (e, t) => b.jsx("li", {
-                                            className: "bg-[#5F00F8] p-1 rounded-lg px-2 ",
+                                            className: "bg-[#5F00F8] text-white p-1 rounded-lg px-2 ",
                                             children: e
                                         }, t)))
                                     })]
