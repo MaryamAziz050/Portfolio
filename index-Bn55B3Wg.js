@@ -12991,7 +12991,7 @@ function jp() {
                     className: "pt-4",
                     children: b.jsx(Re, {
                         variant: "link",
-                        className: "group px-4 text-gray-800 rounded-full hover:border-2 border-[#C4FF00]",
+                        className: "group px-4 text-gray-800 rounded-full hover:border-2 border-gray-800",
                         asChild: !0,
                         children: b.jsxs(ks, {
                             
