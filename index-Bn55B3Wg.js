@@ -12185,7 +12185,7 @@ function pp() {
                                 transition: {
                                     delay: .2
                                 },
-                                className: "inline-block px-4 py-1.5 rounded-full bg-[#302F2F]/50 text-primary text-sm font-medium",
+                                className: "inline-block px-4 py-1.5 rounded-full bg-[#C4FF00]/50 text-primary text-sm font-medium",
                                 children: "🎉 | Available for freelance work"
                             }), b.jsxs(yh.h1, {
                                 initial: {
@@ -14513,7 +14513,7 @@ function Hm() {
                                 src: null == e ? void 0 : e.image,
                                 alt: "img"
                             }, e.id), b.jsx("div", {
-                                className: "absolute top-4 right-4 bg-gray-800 p-2 text-[#C4FF00] rounded-3xl",
+                                className: "absolute top-4 right-4 bg-\[\#161719\] p-2 text-[#C4FF00] rounded-3xl",
                                 children: b.jsx($e, {})
                             })]
                         }))))
@@ -14831,7 +14831,7 @@ function qm() {
                                         className: "text-xl font-semibold line-clamp-2 mb-2",
                                         children: e.title
                                     }), b.jsxs("div", {
-                                        className: "flex hover:border-2 p-4 absolute bottom-3 bg-gray-800 rounded-2xl border-gray-900 text-[#C4FF00]",
+                                        className: "flex hover:border-2 p-4 absolute bottom-3 bg-\[\#161719\] rounded-2xl border-gray-900 text-[#C4FF00]",
                                         children: [b.jsx("p", {
                                             children: "Read More"
                                         }), " ", b.jsx(Ie, {})]
