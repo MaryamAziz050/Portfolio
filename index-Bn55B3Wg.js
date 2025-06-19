@@ -1568,8 +1568,10 @@ const Ae = s.forwardRef(( ({color: e="currentColor", size: t=24, strokeWidth: n=
     key: "1vk2je"
 }]])
   , Be = Le("Github", [["path", {
-    d: "M20.45 2H3.55A1.54 1.54 0 0 0 2 3.55v16.9A1.54 1.54 0 0 0 3.55 22h16.9A1.54 1.54 0 0 0 22 20.45V3.55A1.54 1.54 0 0 0 20.45 2zM8.33 18H5.67v-7.5h2.66V18zM7 9.5a1.5 1.5 0 1 1 0-3.001 1.5 1.5 0 0 1 0 3zM18.33 18h-2.66v-3.6c0-.86-.34-1.4-1.13-1.4-.65 0-1.03.44-1.2.87-.06.14-.07.33-.07.52V18h-2.66s.04-7.5 0-8.27h2.66v1.17c.35-.54.98-1.3 2.38-1.3 1.74 0 3.08 1.13 3.08 3.56V18z",
-    key: "tonef",
+    d: "M0 120c0-33.334 11.667-60.834 35-82.5C58.333 15.833 88.667 5 126 5c36.667 0 66.333 10.666 89 32 23.333 22 35 50.666 35 86 0 32-11.333 58.666-34 80-23.333 22-54 33-92 33h-1c-36.667 0-66.333-11-89-33S0 153.333 0 120zm13 875V327h222v668H13zm345 0h222V622c0-23.334 2.667-41.334 8-54 9.333-22.667 23.5-41.834 42.5-57.5 19-15.667 42.833-23.5 71.5-23.5 74.667 0 112 50.333 112 151v357h222V612c0-98.667-23.333-173.5-70-224.5S857.667 311 781 311c-86 0-153 37-201 111v2h-1l1-2v-95H358c1.333 21.333 2 87.666 2 199 0 111.333-.667 267.666-2 469z"
+    ,transform:"scale(0.022)"
+    ,fill:"currentColor"
+    ,key: "tonef"
     
 }]]),
     
@@ -4350,10 +4352,10 @@ function Ls({activeSection: e}) {
                     children: [b.jsx(ks, {
                         to: "/",
                         children: b.jsx("div", {
-                            className: "flex-shrink-0 bg-[#C4FF00] rounded-full",
+                            className: "flex-shrink-0 bg-[#C4FF00] rounded-full ",
                             children: b.jsx(Oe, {
                                 size: 40,
-                                className: "text-secondary"
+                                className: "text-secondary text-gray-800"
                             })
                         })
                     }), b.jsx("div", {
@@ -4378,7 +4380,7 @@ function Ls({activeSection: e}) {
                         children: b.jsx(Re, {
                             variant: "ghost",
                             size: "icon",
-                            className: "mr-2 bg-[#C4FF00] text-white hover:bg-[#C4FF00] transition-all duration-300",
+                            className: "mr-2 bg-[#C4FF00] text-gray-800 hover:bg-[#C4FF00] transition-all duration-300",
                             children: b.jsx(Be, {
                                 className: "h-[30px] w-[30px] "
                             })
@@ -12094,7 +12096,7 @@ const dp = ({words: e, duration: t=3e3, className: n}) => {
                 scale: 2,
                 position: "absolute"
             },
-            className: Te("z-10 inline-block relative text-left text-neutral-900 dark:text-neutral-100 px-2", n),
+            className: Te("z-10 inline-block relative text-left text-gray-800 dark:text-gray-800 px-2", n),
             children: i.split(" ").map(( (e, t) => b.jsxs(yh.span, {
                 initial: {
                     opacity: 0,
@@ -12212,7 +12214,7 @@ function pp() {
                                 },
                                 className: "text-2xl sm:text-3xl lg:text-4xl text-black font-medium",
                                 children: ["I build", " ", b.jsx(dp, {
-                                    className: "bg-gradient-to-r from-[#C4FF00] to-[#dcff36] text-white px-4 py-2 rounded-xl shadow-lg",
+                                    className: "bg-gradient-to-r from-[#C4FF00] to-[#dcff36] text-gray-800 px-4 py-2 rounded-xl shadow-lg",
                                     words: ["creative", "interactive", "beautiful", "modern", "responsive", "high quality", "elegant"]
                                 }), " ", b.jsx("span", {
                                     className: "block sm:inline text-black",
@@ -12936,7 +12938,7 @@ function jp() {
                         className: "text-sm",
                         children: "Overview"
                     }), b.jsx("p", {
-                        className: "text-[#C4FF00]",
+                        className: "text-gray-800",
                         children: "Who am I"
                     })]
                 }), b.jsx(yh.h1, {
@@ -12989,7 +12991,7 @@ function jp() {
                     className: "pt-4",
                     children: b.jsx(Re, {
                         variant: "link",
-                        className: "group px-4 text-[#C4FF00] rounded-full hover:border-2 border-[#C4FF00]",
+                        className: "group px-4 text-gray-800 rounded-full hover:border-2 border-[#C4FF00]",
                         asChild: !0,
                         children: b.jsxs(ks, {
                             
@@ -13088,7 +13090,7 @@ function Mp() {
     }
     ), []);
     return b.jsxs("div", {
-        className: "w-full min-h-screen bg-[#302F2F] text-white px-4 py-24 rounded-tr-[80px]",
+        className: "w-full min-h-screen bg-[#161719] text-white px-4 py-24 rounded-tr-[80px]",
         children: [b.jsxs("div", {
             className: "max-w-6xl mx-auto flex flex-col items-center justify-center",
             children: [b.jsxs(yh.div, {
@@ -13423,7 +13425,7 @@ function Op() {
     })
 }
 const Vp = () => b.jsxs("section", {
-    className: "grid place-content-center gap-2 bg-[#302F2F] px-8 py-24 text-[#C4FF00] rounded-t-[80px]",
+    className: "grid place-content-center gap-2 bg-[#161719] px-8 py-24 text-[#C4FF00] rounded-t-[80px]",
     children: [b.jsx(Fp, {
         href: "https://www.linkedin.com/in/ameer-hamza-81383025b/",
         children: "Linkedin"
@@ -14295,11 +14297,11 @@ function zm() {
                 children: [b.jsxs("div", {
                     className: "flex items-center text-sm font-medium leading-6 text-white",
                     children: [b.jsx("p", {
-                        className: "font-bold text-[#302F2F]",
+                        className: "font-bold text-gray-800",
                         children: "Crafting Beautiful Shopify Experiences!"
                     }), b.jsx("a", {
                         href: "/",
-                        className: "ml-3 flex-none rounded-lg bg-gray-900 px-3 py-1 text-xs text-white shadow-sm hover:bg-gray-900/80",
+                        className: "ml-3 flex-none rounded-lg bg-gray-800 px-3 py-1 text-xs text-white shadow-sm hover:bg-gray-900/80",
                         children: "See My Work"
                     })]
                 }), b.jsx("div", {
@@ -14309,7 +14311,7 @@ function zm() {
                         onClick: () => t(!1),
                         "aria-label": "Dismiss",
                         children: b.jsx(Fm, {
-                            className: "h-5 w-5 text-white"
+                            className: "h-5 w-5 text-gray-800"
                         })
                     })
                 })]
@@ -14511,7 +14513,7 @@ function Hm() {
                                 src: null == e ? void 0 : e.image,
                                 alt: "img"
                             }, e.id), b.jsx("div", {
-                                className: "absolute top-4 right-4 bg-[#C4FF00] p-2 text-white rounded-3xl",
+                                className: "absolute top-4 right-4 bg-gray-800 p-2 text-[#C4FF00] rounded-3xl",
                                 children: b.jsx($e, {})
                             })]
                         }))))
@@ -14829,7 +14831,7 @@ function qm() {
                                         className: "text-xl font-semibold line-clamp-2 mb-2",
                                         children: e.title
                                     }), b.jsxs("div", {
-                                        className: "flex hover:border-2 p-4 absolute bottom-3 bg-[#C4FF00] rounded-2xl border-[#dcff36] text-white",
+                                        className: "flex hover:border-2 p-4 absolute bottom-3 bg-gray-800 rounded-2xl border-gray-900 text-[#C4FF00]",
                                         children: [b.jsx("p", {
                                             children: "Read More"
                                         }), " ", b.jsx(Ie, {})]
@@ -14939,14 +14941,14 @@ b.jsxs(b.Fragment, {
                     children: b.jsxs("p", {
                         className: "text-xl md:text-2xl lg:text-3xl leading-relaxed text-gray-800",
                         children: ["I’m a Shopify Developer with over", " ", b.jsx("span", {
-                            className: "font-semibold text-[#C4FF00]",
+                            className: "font-semibold text-[#C4FF00] [text-shadow:0.5px_0.5px_0.5px_rgba(0,0,0,0.2)] ",
                             children: "2 years of experience"
                         }), " ", "helping eCommerce brands build fast, clean, and conversion-focused storefronts. My main focus is on", 
                         " ", b.jsx("span", {
-                            className: "font-semibold text-[#C4FF00]",
+                            className: "font-semibold text-[#C4FF00]  [text-shadow:0.5px_0.5px_0.5px_rgba(0,0,0,0.2)]",
                             children: "custom Shopify theme development"
                         }), " ", "and", " ", b.jsx("span", {
-                            className: "font-semibold text-[#C4FF00]",
+                            className: "font-semibold text-[#C4FF00]  [text-shadow:0.5px_0.5px_0.5px_rgba(0,0,0,0.2)]",
                             children: "conversion rate optimization (CRO)"
                         }), ". I build stores that aren’t just good-looking — they’re designed to load fast, guide users smoothly, and turn clicks into real sales.",]
                     })
@@ -14963,7 +14965,7 @@ b.jsxs(b.Fragment, {
                     children: b.jsxs("p", {
                         className: "text-xl md:text-2xl lg:text-3xl leading-relaxed text-gray-800",
                         children: ["Most stores", " ", b.jsx("span", {
-                            className: "font-semibold text-[#C4FF00]",
+                            className: "font-semibold text-[#C4FF00]  [text-shadow:0.5px_0.5px_0.5px_rgba(0,0,0,0.2)]",
                             children: "lose customers"
                         }), ", not because of bad products, but because of poor shopping experience. That’s where I come in. I develop custom sections that are fully editable, optimize mobile layouts, reduce page bloat, and build features like bundle carts, in-cart upsells, product quizzes, and smart navigation — all built from scratch using Liquid, JS, and CSS."]
                     })
@@ -14981,13 +14983,13 @@ b.jsxs(b.Fragment, {
                     children: b.jsxs("p", {
                         className: "text-xl md:text-2xl lg:text-3xl leading-relaxed text-gray-800",
                         children: ["I’ve worked with agencies and brands across different countries, and I know how to handle tight deadlines and shifting requirements without sacrificing quality. Every decision I make is backed by how users behave on a store — whether it’s simplifying the layout or improving the flow to checkout. My code is", " ", b.jsx("span", {
-                            className: "font-semibold text-[#C4FF00]",
+                            className: "font-semibold text-[#C4FF00]  [text-shadow:0.5px_0.5px_0.5px_rgba(0,0,0,0.2)]",
                             children: "clean, scalable"
                         }), ",", "and", " ", b.jsx("span", {
-                            className: "font-semibold text-[#C4FF00]",
+                            className: "font-semibold text-[#C4FF00]  [text-shadow:0.5px_0.5px_0.5px_rgba(0,0,0,0.2)]",
                             children: "built to support real growth"
                         }), ", not just", " ", b.jsx("span", {
-                            className: "font-semibold text-[#C4FF00]",
+                            className: "font-semibold text-[#C4FF00]  [text-shadow:0.5px_0.5px_0.5px_rgba(0,0,0,0.2)]",
                             children: "design trends"
                         }),"."]
                     })
@@ -15006,10 +15008,10 @@ b.jsxs(b.Fragment, {
                     children: b.jsxs("p", {
                         className: "text-xl md:text-2xl lg:text-3xl leading-relaxed text-gray-800",
                         children: ["Right now, I’m open to remote opportunities with international brands or agencies that want a developer who understands both tech and strategy. If your store is", " ", b.jsx("span", {
-                            className: "font-semibold text-[#C4FF00]",
+                            className: "font-semibold text-[#C4FF00]  [text-shadow:0.5px_0.5px_0.5px_rgba(0,0,0,0.2)]",
                             children: "getting traffic but not converting"
                         }), " ", " — it’s not the product. It’s the experience. ", b.jsx("span", {
-                            className: "font-semibold text-[#C4FF00]",
+                            className: "font-semibold text-[#C4FF00]  [text-shadow:0.5px_0.5px_0.5px_rgba(0,0,0,0.2)]",
                             children: "Let’s fix that"
                         }), "."]
                     })
@@ -15116,7 +15118,7 @@ b.jsxs(b.Fragment, {
         children: [b.jsx("section", {
             className: je("sticky top-0 grid min-h-screen w-full place-content-center overflow-hidden bg-[#f5f5f5]", "lenis-section"),
             children: b.jsxs("h2", {
-                className: "relative z-0 text-[14vw] font-black text-[#333] md:text-[200px]",
+                className: "relative z-0 text-[14vw] font-black text-neutral-800 md:text-[200px]",
                 children: ["Contact", b.jsx("span", {
                     className: "text-[#C4FF00]",
                     children: "."
@@ -15144,7 +15146,7 @@ b.jsxs(b.Fragment, {
                         children: [b.jsx(_e, {}), "Email Me"]
                     }), b.jsx(ks, {
                         to: "https://api.whatsapp.com/send?phone=923142090844&text=Hello%20there!",
-                        className: je("bg-[#C4FF00] text-white px-6 py-3 rounded-full hover:bg-[#dcff36] font-semibold transition-colors", "lenis-link"),
+                        className: je("bg-[#C4FF00] text-gray-800 px-6 py-3 rounded-full hover:bg-[#dcff36] font-semibold transition-colors", "lenis-link"),
                         children: "WhatsApp"
                     })]
                 })]
@@ -15305,7 +15307,7 @@ b.jsxs(b.Fragment, {
                                     }), b.jsx("ul", {
                                         className: "flex flex-wrap gap-2",
                                         children: t.techStack.map(( (e, t) => b.jsx("li", {
-                                            className: "bg-[#dcff36] text-white p-1 rounded-lg px-2 ",
+                                            className: "bg-[#dcff36] text-gray-800 p-1 rounded-lg px-2 ",
                                             children: e
                                         }, t)))
                                     })]
@@ -15371,7 +15373,7 @@ b.jsxs(b.Fragment, {
                                 href: `https://${t.liveLink}`,
                                 target: "_blank",
                                 rel: "noopener noreferrer",
-                                className: "inline-block bg-[#C4FF00] text-white px-6 py-3 rounded-full font-semibold hover:bg-[#dcff36] transition-colors",
+                                className: "inline-block bg-[#C4FF00] text-gray-800 px-6 py-3 rounded-full font-semibold hover:bg-[#dcff36] transition-colors",
                                 children: "Visit Website"
                             })]
                         })]
@@ -15557,7 +15559,7 @@ function nf() {
                                 ease: "easeOut"
                             },
                             children: t.tags.map(( (e, t) => b.jsx("span", {
-                                className: "rounded-full bg-gradient-to-r from-[#C4FF00] to-[#dcff36] px-4 py-1.5 text-sm text-white font-medium",
+                                className: "rounded-full bg-gradient-to-r from-[#C4FF00] to-[#dcff36] px-4 py-1.5 text-sm text-gray-800 font-medium",
                                 children: e
                             }, t)))
                         })]
@@ -15567,7 +15569,7 @@ function nf() {
                 className: "max-w-6xl mx-auto px-4 py-8 md:py-12 flex  sm:flex-row justify-between items-center gap-4",
                 children: [o && b.jsxs(ks, {
                     to: `/blogs/${o.slug}`,
-                    className: "flex w-full sm:w-auto items-center justify-center sm:justify-start px-6 py-3 bg-[#dcff36] hover:bg-[#C4FF00] rounded-full text-white  transition-colors duration-300 ease-in-out",
+                    className: "flex w-full sm:w-auto items-center justify-center sm:justify-start px-6 py-3 hover:bg-[#dcff36] bg-[#C4FF00] rounded-full text-gray-800  transition-colors duration-300 ease-in-out",
                     children: [b.jsx(Ve, {
                         className: "w-5 h-5 mr-2 flex-shrink-0"
                     }), b.jsx("span", {
@@ -15576,7 +15578,7 @@ function nf() {
                     })]
                 }), i && b.jsxs(ks, {
                     to: `/blogs/${i.slug}`,
-                    className: "flex w-full sm:w-auto items-center justify-center sm:justify-end px-6 py-3 bg-[#dcff36] hover:bg-[#C4FF00] rounded-full text-white  transition-colors duration-300 ease-in-out",
+                    className: "flex w-full sm:w-auto items-center justify-center sm:justify-end px-6 py-3 hover:bg-[#dcff36] bg-[#C4FF00] rounded-full text-gray-800  transition-colors duration-300 ease-in-out",
                     children: [b.jsx("span", {
                         className: "truncate",
                         children: "Next"
