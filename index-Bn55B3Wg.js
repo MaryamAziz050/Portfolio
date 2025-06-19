@@ -13322,24 +13322,24 @@ const Markloops="./assets/img/markloops_logo-Photoroom.png", ConversionsKing="./
 ,Ip = [{
     title: "Shopify Developer",
     company: "Markloops Creative Agency",
-    description: "Working as a Shopify developer at Markloops Creative Agency since Feb 2025. Built and customized Shopify stores using Liquid, Schema, CSS, and JavaScript. Integrated Shopify APIs for enhanced functionality and performance. Delivered pixel-perfect designs from Figma under tight deadlines.",
+    description: "At Markloops, I craft fully customizable Shopify solutions with editable sections that empower brands to manage content and layout effortlessly. I develop advanced features like bundle builders, quizzes, and smart cart upsells to enhance UX and boost conversions. My work focuses on modular, scalable, and high-performing components.",
     icon: Markloops,
-    technologies: ["Custom Theme", "Liquid", "CRO", "JavaScript", "Problem Solving"],
+    technologies: ["Shopify","Theme Development", "Liquid",  "JavaScript","CRO", "Problem Solving"],
     duration: "Feb 2025 - Present"
 }, {
     title: "Shopify Developer",
     company: "Conversions King",
-    description: "Worked as a Shopify developer at Conversions King from Aug 2024 to Feb 2025. Created responsive Shopify websites using Liquid, Schema, Tailwind CSS, and JavaScript. Customized themes with JSON schema for flexibility. Integrated Shopify APIs for efficient product management.",
+    description: "At Conversions King, I focused on building custom Shopify sections and reusable UI components that store owners could easily manage. I supported theme design enhancements and implemented lightweight custom features to improve functionality. My approach combined clean layouts with CRO tactics to boost performance and user experience.",
     icon: ConversionsKing,
-    technologies: ["Custom Theme", "Liquid", "CRO", "JavaScript", "Problem Solving"],
+    technologies: ["Shopify","Theme Development", "Liquid",  "JavaScript","CRO", "Problem Solving"],
     duration: "Aug 2024 – Feb 2025"
 },
 {
     title: "Shopify Developer",
     company: "Infinity Creatives",
-    description: "Worked as a Shopify developer at Infinity Creatives from Mar 2023 to Jun 2024. Developed scalable Shopify apps using HTML, CSS, Tailwind, and JavaScript. Designed responsive UIs and customized stores using Liquid and JSON schema. Implemented Shopify API for advanced functionality.",
+    description: "At Infinity Creatives, I started my Shopify journey by building and customizing themes with clean, editable sections that store owners could manage easily. I focused on front-end performance and gained a solid foundation in theme development best practices. This role shaped my coding approach and introduced me to CRO fundamentals.",
     icon: InfinityCreatives,
-    technologies: ["Custom Theme", "Liquid", "CRO", "JavaScript", "Problem Solving"],
+    technologies: ["Shopify","Theme Development", "Liquid",  "JavaScript","CRO", "Problem Solving"],
     duration: "Mar 2023 - Jun 2024"
 }
 ];
