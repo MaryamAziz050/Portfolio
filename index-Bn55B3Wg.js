@@ -1573,7 +1573,7 @@ const Ae = s.forwardRef(( ({color: e="currentColor", size: t=24, strokeWidth: n=
     ,fill:"currentColor"
     ,key: "tonef"
     
-}]]),
+}],]),
     
  
  _e = Le("Mail", [["rect", {
@@ -4366,7 +4366,7 @@ function Ls({activeSection: e}) {
                                 to: t.href,
                                 children: b.jsx(Re, {
                                     variant: "ghost",
-                                    className: "text-sm transition-all duration-300 font-medium " + ("aboutus" === e ? "text-gray-900" : "projects" === e ? "text-[#C4FF00]" : "skills" === e ? "text-white" : "text-gray-900"),
+                                    className: "text-sm transition-all duration-300 font-medium "  + ("aboutus" === e ? "text-gray-900" : "projects" === e ? "text-[#C4FF00]" : "skills" === e ? "text-white" : "text-gray-900"),
                                     onClick: o,
                                     children: t.name
                                 })
@@ -4380,9 +4380,9 @@ function Ls({activeSection: e}) {
                         children: b.jsx(Re, {
                             variant: "ghost",
                             size: "icon",
-                            className: "mr-2 bg-[#C4FF00] text-gray-800 hover:bg-[#C4FF00] transition-all duration-300",
+                            className: "mr-2 bg-[#C4FF00] text-gray-800 hover:bg-white transition-all duration-300" ,
                             children: b.jsx(Be, {
-                                className: "h-[30px] w-[30px] "
+                                className: "h-5 w-5 text-gray-800"
                             })
                         })
                     }), b.jsxs(ii, {
@@ -4395,7 +4395,7 @@ function Ls({activeSection: e}) {
                                 size: "icon",
                                 className: "md:hidden " + ("aboutus" === e ? "text-gray-900" : "projects" === e ? "bg-[#505050]" : "skills" === e ? "bg-white" : "bg-[#C4FF00]"),
                                 children: b.jsx(We, {
-                                    className: "h-5 w-5 text-white"
+                                    className: "h-5 w-5 text-gray-800"
                                 })
                             })
                         }), b.jsxs(li, {
@@ -4404,7 +4404,7 @@ function Ls({activeSection: e}) {
                             children: [b.jsx(ci, {
                                 className: "border-b border-white pb-4",
                                 children: b.jsx(ui, {
-                                    className: "text-left text-white",
+                                    className: "text-left text-gray-800",
                                     children: "Navigation"
                                 })
                             }), b.jsx("nav", {
@@ -4419,10 +4419,10 @@ function Ls({activeSection: e}) {
                                     children: b.jsxs("div", {
                                         className: "flex items-center space-x-4 px-2 py-2 hover:bg-white active:bg-white rounded-md transition-colors border-b border-slate-900",
                                         children: [b.jsx("span", {
-                                            className: "text-sm text-white",
+                                            className: "text-sm text-gray-800",
                                             children: e.id
                                         }), b.jsx("span", {
-                                            className: "text-base font-bold text-white",
+                                            className: "text-base font-bold text-gray-800",
                                             children: e.name
                                         })]
                                     })
@@ -14299,9 +14299,9 @@ function zm() {
                     children: [b.jsx("p", {
                         className: "font-bold text-gray-800",
                         children: "Crafting Beautiful Shopify Experiences!"
-                    }), b.jsx("a", {
-                        href: "/",
-                        className: "ml-3 flex-none rounded-lg bg-gray-800 px-3 py-1 text-xs text-white shadow-sm hover:bg-gray-900/80",
+                    }), b.jsx(ks, {
+                        to: "/projects",
+                        className: "ml-3 flex-none rounded-lg bg-\[\#161719\] px-3 py-1 text-xs text-white shadow-sm hover:bg-gray-900/80",
                         children: "See My Work"
                     })]
                 }), b.jsx("div", {
@@ -14331,57 +14331,57 @@ const Bm = ({setActiveSection: e}) => b.jsxs("div", {
     })]
 })
   , _m = [{
-  name: "Moxielash - High-Converting Shopify Store",
+  name: "Moxielash - Custom Shopify Store Development",
   slug: "moxielash-ecommerce-store",
-  description: "Built a high-converting Shopify store for Moxielash with a strong Conversion Rate Optimization (CRO) focus. Designed custom sections, a bundle cart, a mega menu, tailored product page logic, and integrated chat functionality. The store is fully responsive, performance-optimized, and editable through the Shopify customizer — allowing for easy content updates without needing a developer.",
+  description: "Worked on the full development of the Moxielash Shopify store with a strong focus on CRO (Conversion Rate Optimization), user experience, and customizability. The goal was to create a performance-optimized storefront that not only looked premium but also converted visitors into customers efficiently. The design was built from scratch with responsiveness in mind, and a scalable, editable architecture tailored for the brand’s internal team.",
   features: [
-    "Custom design tailored to Moxielash's branding",
-    "Full CRO focus to maximize conversions",
-    "Custom sections, bundle cart, and mega menu",
-    "Chat integration for enhanced customer support",
-    "Completely editable through Shopify customizer",
-    "Responsive and performance-optimized for all devices"
+    "Custom editable sections tailored for the Shopify Theme Customizer",
+"Dynamic bundle cart and in-cart experiences",
+"Advanced product card logic",
+"Interactive product pages with variant logic and upsell opportunities",
+"Responsive layout optimized for all screen sizes",
+"Chat integration for improved support and user flow",
+"Sticky cart features and smooth page transitions",
+"Hamburger menu and advanced mega menu",
+"User journey optimization focused on engagement and retention",
+"Scalable, high-performance storefront with improved sales metrics"
   ],
   techStack: [
-    "HTML",
-    "CSS",
-    "JavaScript",
-    "Liquid",
-    "Shopify",
-    "Tailwind CSS"
-  ],
+"Shopify", "Liquid", "HTML", "CSS", "Tailwind CSS", "JavaScript", "Shopify Theme Customizer", "Third-party Chat Integration"  ],
   liveLink: "https://www.moxielash.com/",
-  image: kp
+  image: kp,
+  startDate: "Apr 2023",
+  endDate: "Aug 2024"
 }
 ,
 {
-  name: "ProlonLife - Custom Shopify Store",
+  name: "ProlonLife - Custom Shopify Store Development",
   slug: "prolonlife-ecommerce-store",
-  description: "Developed a custom Shopify store for ProlonLife with a strong Conversion Rate Optimization (CRO) focus. Built editable sections, a bundle cart, a mega menu, and enhanced product page features to improve user flow and boost conversions. Integrated chat, enhanced UX elements, and ensured full mobile responsiveness. Every part of the store was designed to be editable through the Shopify customizer, empowering the internal team to make updates easily and efficiently.",
+  description: "Built a high-performance, fully custom Shopify store for the beauty brand Moxielash, focused on both front-end design and conversion-optimized functionality. The project emphasized fast page loads, clean architecture, and a user experience optimized for both desktop and mobile.",
   features: [
-    "Custom design tailored to ProlonLife's branding",
-    "Full CRO focus with enhanced UX elements",
-    "Bundle cart and mega menu for improved functionality",
-    "Chat integration for real-time customer support",
-    "Completely editable through Shopify customizer",
-    "Responsive across all devices, offering a smooth experience on mobile and desktop"
+    "Custom Liquid sections styled for maximum flexibility and fast performance",
+"Fully responsive layout with a smooth hamburger menu and advanced mega menu",
+"Dynamic product card components for enhanced visual interaction",
+"Fully custom bundle cart experience",
+"Interactive product pages with variant logic",
+"Chat integration for improved customer support",
+"Editable sections via the Shopify Theme Customizer for easy content updates",
+"Custom JavaScript-based interactions to enhance user experience and engagement",
+"Built with scalability, performance, and clean UX in mind"
   ],
   techStack: [
-    "HTML",
-    "CSS",
-    "JavaScript",
-    "Liquid",
-    "Shopify",
-    "Tailwind CSS"
+    "Shopify", "Liquid", "HTML", "CSS", "Tailwind CSS", "JavaScript", "Shopify Theme Customizer", "Third-party chat integration"
   ],
   liveLink: "https://prolon.eu/",
-  image: Tp
+  image: Tp,
+  startDate: "Jul 2023",
+  endDate: "Feb 2025"
 }
 
 
 
 , {
-  name: "L-Nutura-Health - E-commerce Store",
+  name: "L-Nutura-Health - Custom Shopify Store Development",
   slug: "l-nutura-health-ecommerce-store",
   description: "Built a custom Shopify store for L-Nutura-Health with a strong Conversion Rate Optimization (CRO) focus. Designed custom sections, a tailored product page, and a clear, responsive UI to maximize sales and enhance user experience. The store is fully editable through Shopify customizer, allowing the team to easily update content without needing a developer.",
   features: [
@@ -14400,7 +14400,9 @@ const Bm = ({setActiveSection: e}) => b.jsxs("div", {
     "Tailwind CSS"
   ],
   liveLink: "",
-  image: Pp
+  image: Pp,
+  startDate: "Jan 2024",
+  endDate: "Apr 2025"
 }
 ];
 const Wm = {
@@ -15251,9 +15253,13 @@ b.jsxs(b.Fragment, {
                         value: "Thousands",
                         label: "Lines of code"
                     }, {
-                        value: "30",
-                        label: "Total Project Days"
-                    }].map(( (e, t) => b.jsxs("div", {
+                        value: t.startDate,
+                        label: "Project Start Date"
+                    },{
+                        value: t.endDate,
+                        label: "Project End Date"
+                    }
+                ].map(( (e, t) => b.jsxs("div", {
                         className: "text-center",
                         children: [b.jsx("h3", {
                             className: "text-2xl font-bold text-[#C4FF00]",
@@ -15298,7 +15304,7 @@ b.jsxs(b.Fragment, {
                                         className: "font-semibold",
                                         children: "TYPE"
                                     }), b.jsx("p", {
-                                        children: "Website"
+                                        children: "eCommerce Store"
                                     })]
                                 }), b.jsxs("div", {
                                     children: [b.jsx("h4", {
@@ -15320,13 +15326,13 @@ b.jsxs(b.Fragment, {
                             }), b.jsxs("ul", {
                                 className: "list-disc list-inside space-y-2",
                                 children: [b.jsx("li", {
-                                    children: "Web Design"
+                                    children: "Custom Store Development"
                                 }), b.jsx("li", {
-                                    children: "Web Development"
+                                    children: "Performance Optimization"
                                 }), b.jsx("li", {
-                                    children: "Animations"
+                                    children: "CRO"
                                 }), b.jsx("li", {
-                                    children: "Branding"
+                                    children: "Custom Feature Development"
                                 })]
                             })]
                         })]
