@@ -13184,11 +13184,11 @@ function Mp() {
                     }), b.jsxs("div", {
                         className: "flex items-center justify-between w-[90%] border-b pb-4 transition-colors duration-300",
                         children: [b.jsx("h2", {
-                            className: "text-xl w-[70%] md:text-3xl lg:text-3xl font-light group-hover:text-[#C4FF00] transition-colors duration-300",
+                            className: "text-xl md:text-3xl lg:text-3xl font-light group-hover:text-[#C4FF00] transition-colors duration-300",
                             children: e.description
                         }), b.jsxs(ks, {
                             to: `/projects/${e.slug}`,
-                            className: "inline-flex items-center text-[#C4FF00] hover:text-white transition-colors",
+                            className: "inline-flex whitespace-nowrap items-center text-[#C4FF00] hover:text-white transition-colors",
                             whileHover: {
                                 x: 5
                             },
