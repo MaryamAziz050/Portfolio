@@ -14454,7 +14454,7 @@ const Bm = ({setActiveSection: e}) => b.jsxs("div", {
   ],
   liveLink: "https://soontra.com/",
   image: Sx, 
-  startDate: "Feb 2024",
+  startDate: "May 2025",
   endDate: "May 2025"
 },
 {
@@ -14479,7 +14479,7 @@ const Bm = ({setActiveSection: e}) => b.jsxs("div", {
   ],
   liveLink: "https://sehgalmotorsports.pk/",
   image: Sz, 
-  startDate: "Mar 2024",
+  startDate: "Jun 2025",
   endDate: "Jul 2025"
 }
 
