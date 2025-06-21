@@ -4380,7 +4380,7 @@ function Ls({activeSection: e}) {
                         children: b.jsx(Re, {
                             variant: "ghost",
                             size: "icon",
-                            className: "mr-2 bg-[#C4FF00] text-gray-800 hover:bg-white transition-all duration-300" ,
+                            className: "mr-2 bg-[#C4FF00] text-gray-800 transition-all duration-300" ,
                             children: b.jsx(Be, {
                                 className: "h-5 w-5 text-gray-800"
                             })
@@ -13345,7 +13345,7 @@ const Markloops="./assets/img/markloops_logo-Photoroom.png", ConversionsKing="./
 ];
 function Op() {
     return b.jsx("section", {
-        className: "min-h-screen bg-[#F2F2F4] py-24 px-4 sm:px-6 lg:px-8 rounded-t-[80px]",
+        className: "min-h-auto bg-[#F2F2F4] py-24 px-4 sm:px-6 lg:px-8 rounded-t-[80px]",
         children: b.jsxs("div", {
             className: "max-w-6xl mx-auto",
             children: [b.jsx(yh.h2, {
@@ -13516,7 +13516,7 @@ function zp({onSectionChange: e}) {
                     id: "skills",
                     children: b.jsx(Dp, {})
                 }), b.jsx("section", {
-                    className: "h-auto sm:h-screen w-full sticky -top-32 md:top-0 mb-[180px]",
+                    className: "h-auto sm:h-auto w-full sticky -top-[120%] md:top-0 mb-[180px] md:mb-0",
                     id: "experience",
                     children: b.jsx(Op, {})
                 }), b.jsx("section", {
@@ -14331,6 +14331,7 @@ const Bm = ({setActiveSection: e}) => b.jsxs("div", {
     })]
 })
   , _m = [{
+    brand: "Moxielash",
   name: "Moxielash - Custom Shopify Store Development",
   slug: "moxielash-ecommerce-store",
   description: "Worked on the full development of the Moxielash Shopify store with a strong focus on CRO (Conversion Rate Optimization), user experience, and customizability. The goal was to create a performance-optimized storefront that not only looked premium but also converted visitors into customers efficiently. The design was built from scratch with responsiveness in mind, and a scalable, editable architecture tailored for the brand’s internal team.",
@@ -14355,6 +14356,7 @@ const Bm = ({setActiveSection: e}) => b.jsxs("div", {
 }
 ,
 {
+    brand: "ProlonLife",
   name: "ProlonLife - Custom Shopify Store Development",
   slug: "prolonlife-ecommerce-store",
   description: "Built a high-performance, fully custom Shopify store for the beauty brand Moxielash, focused on both front-end design and conversion-optimized functionality. The project emphasized fast page loads, clean architecture, and a user experience optimized for both desktop and mobile.",
@@ -14381,6 +14383,7 @@ const Bm = ({setActiveSection: e}) => b.jsxs("div", {
 
 
 , {
+    brand: "L-Nutura-Health",
   name: "L-Nutura-Health - Custom Shopify Store Development",
   slug: "l-nutura-health-ecommerce-store",
   description: "Built a custom Shopify store for L-Nutura-Health with a strong Conversion Rate Optimization (CRO) focus. Designed custom sections, a tailored product page, and a clear, responsive UI to maximize sales and enhance user experience. The store is fully editable through Shopify customizer, allowing the team to easily update content without needing a developer.",
@@ -14943,14 +14946,14 @@ b.jsxs(b.Fragment, {
                     children: b.jsxs("p", {
                         className: "text-xl md:text-2xl lg:text-3xl leading-relaxed text-gray-800",
                         children: ["I’m a Shopify Developer with over", " ", b.jsx("span", {
-                            className: "font-semibold text-[#C4FF00] [text-shadow:0.5px_0.5px_0.5px_rgba(0,0,0,0.2)] ",
+                            className: "font-semibold text-[#C4FF00]   ",
                             children: "2 years of experience"
                         }), " ", "helping eCommerce brands build fast, clean, and conversion-focused storefronts. My main focus is on", 
                         " ", b.jsx("span", {
-                            className: "font-semibold text-[#C4FF00]  [text-shadow:0.5px_0.5px_0.5px_rgba(0,0,0,0.2)]",
+                            className: "font-semibold text-[#C4FF00]   ",
                             children: "custom Shopify theme development"
                         }), " ", "and", " ", b.jsx("span", {
-                            className: "font-semibold text-[#C4FF00]  [text-shadow:0.5px_0.5px_0.5px_rgba(0,0,0,0.2)]",
+                            className: "font-semibold text-[#C4FF00]   ",
                             children: "conversion rate optimization (CRO)"
                         }), ". I build stores that aren’t just good-looking — they’re designed to load fast, guide users smoothly, and turn clicks into real sales.",]
                     })
@@ -14967,7 +14970,7 @@ b.jsxs(b.Fragment, {
                     children: b.jsxs("p", {
                         className: "text-xl md:text-2xl lg:text-3xl leading-relaxed text-gray-800",
                         children: ["Most stores", " ", b.jsx("span", {
-                            className: "font-semibold text-[#C4FF00]  [text-shadow:0.5px_0.5px_0.5px_rgba(0,0,0,0.2)]",
+                            className: "font-semibold text-[#C4FF00]   ",
                             children: "lose customers"
                         }), ", not because of bad products, but because of poor shopping experience. That’s where I come in. I develop custom sections that are fully editable, optimize mobile layouts, reduce page bloat, and build features like bundle carts, in-cart upsells, product quizzes, and smart navigation — all built from scratch using Liquid, JS, and CSS."]
                     })
@@ -14985,13 +14988,13 @@ b.jsxs(b.Fragment, {
                     children: b.jsxs("p", {
                         className: "text-xl md:text-2xl lg:text-3xl leading-relaxed text-gray-800",
                         children: ["I’ve worked with agencies and brands across different countries, and I know how to handle tight deadlines and shifting requirements without sacrificing quality. Every decision I make is backed by how users behave on a store — whether it’s simplifying the layout or improving the flow to checkout. My code is", " ", b.jsx("span", {
-                            className: "font-semibold text-[#C4FF00]  [text-shadow:0.5px_0.5px_0.5px_rgba(0,0,0,0.2)]",
+                            className: "font-semibold text-[#C4FF00]   ",
                             children: "clean, scalable"
                         }), ",", "and", " ", b.jsx("span", {
-                            className: "font-semibold text-[#C4FF00]  [text-shadow:0.5px_0.5px_0.5px_rgba(0,0,0,0.2)]",
+                            className: "font-semibold text-[#C4FF00]   ",
                             children: "built to support real growth"
                         }), ", not just", " ", b.jsx("span", {
-                            className: "font-semibold text-[#C4FF00]  [text-shadow:0.5px_0.5px_0.5px_rgba(0,0,0,0.2)]",
+                            className: "font-semibold text-[#C4FF00]   ",
                             children: "design trends"
                         }),"."]
                     })
@@ -15010,10 +15013,10 @@ b.jsxs(b.Fragment, {
                     children: b.jsxs("p", {
                         className: "text-xl md:text-2xl lg:text-3xl leading-relaxed text-gray-800",
                         children: ["Right now, I’m open to remote opportunities with international brands or agencies that want a developer who understands both tech and strategy. If your store is", " ", b.jsx("span", {
-                            className: "font-semibold text-[#C4FF00]  [text-shadow:0.5px_0.5px_0.5px_rgba(0,0,0,0.2)]",
+                            className: "font-semibold text-[#C4FF00]   ",
                             children: "getting traffic but not converting"
                         }), " ", " — it’s not the product. It’s the experience. ", b.jsx("span", {
-                            className: "font-semibold text-[#C4FF00]  [text-shadow:0.5px_0.5px_0.5px_rgba(0,0,0,0.2)]",
+                            className: "font-semibold text-[#C4FF00]   ",
                             children: "Let’s fix that"
                         }), "."]
                     })
@@ -15262,7 +15265,7 @@ b.jsxs(b.Fragment, {
                 ].map(( (e, t) => b.jsxs("div", {
                         className: "text-center",
                         children: [b.jsx("h3", {
-                            className: "text-2xl font-bold text-[#C4FF00]",
+                            className: "text-2xl font-bold text-gray-800 mb-2",
                             children: e.value
                         }), b.jsx("p", {
                             className: "text-gray-600",
@@ -15297,7 +15300,7 @@ b.jsxs(b.Fragment, {
                                         className: "font-semibold",
                                         children: "BRAND"
                                     }), b.jsx("p", {
-                                        children: t.name
+                                        children: t.brand
                                     })]
                                 }), b.jsxs("div", {
                                     children: [b.jsx("h4", {
@@ -15307,13 +15310,14 @@ b.jsxs(b.Fragment, {
                                         children: "eCommerce Store"
                                     })]
                                 }), b.jsxs("div", {
+                                    className: "col-span-2",
                                     children: [b.jsx("h4", {
                                         className: "font-semibold",
                                         children: "TECHNOLOGY"
                                     }), b.jsx("ul", {
                                         className: "flex flex-wrap gap-2",
                                         children: t.techStack.map(( (e, t) => b.jsx("li", {
-                                            className: "bg-[#dcff36] text-gray-800 p-1 rounded-lg px-2 ",
+                                            className: "bg-[#C4FF00] text-gray-800 p-1 rounded-lg px-2 ",
                                             children: e
                                         }, t)))
                                     })]
@@ -15397,13 +15401,13 @@ b.jsxs(b.Fragment, {
                     transition: {
                         duration: .6
                     },
-                    className: "mt-16",
+                    className: "mt-16 mx-auto flex justify-center",
                     children: b.jsx("img", {
                         src: t.image,
                         alt: t.name,
-                        width: 1200,
-                        height: 800,
-                        className: "w-full h-auto rounded-lg shadow-2xl"
+                        width: 600,
+                        height: 400,
+                        className: "w-70% h-auto rounded-lg shadow-2xl"
                     })
                 })]
             })]
@@ -15518,7 +15522,7 @@ function nf() {
                             className: "grid grid-cols-2 gap-6 md:gap-8",
                             children: [b.jsxs("div", {
                                 children: [b.jsx("p", {
-                                    className: "mb-2 text-[#dcff36] font-medium",
+                                    className: "mb-2 text-gray-900 font-medium",
                                     children: "TOPIC NAME"
                                 }), b.jsx("p", {
                                     className: "font-medium text-neutral-800",
@@ -15526,7 +15530,7 @@ function nf() {
                                 })]
                             }), b.jsxs("div", {
                                 children: [b.jsx("p", {
-                                    className: "mb-2 text-[#dcff36] font-medium",
+                                    className: "mb-2 text-gray-900 font-medium",
                                     children: "READING TIME"
                                 }), b.jsx("p", {
                                     className: "font-medium text-neutral-800",
@@ -15534,7 +15538,7 @@ function nf() {
                                 })]
                             }), b.jsxs("div", {
                                 children: [b.jsx("p", {
-                                    className: "mb-2 text-[#dcff36] font-medium",
+                                    className: "mb-2 text-gray-900 font-medium",
                                     children: "PUBLISH DATE"
                                 }), b.jsx("p", {
                                     className: "font-medium text-neutral-800",
@@ -15542,7 +15546,7 @@ function nf() {
                                 })]
                             }), b.jsxs("div", {
                                 children: [b.jsx("p", {
-                                    className: "mb-2 text-[#dcff36] font-medium",
+                                    className: "mb-2 text-gray-900 font-medium",
                                     children: "CATEGORIES"
                                 }), t.categories.map(( (e, t) => b.jsx("p", {
                                     className: "font-medium text-neutral-800",
@@ -15565,7 +15569,7 @@ function nf() {
                                 ease: "easeOut"
                             },
                             children: t.tags.map(( (e, t) => b.jsx("span", {
-                                className: "rounded-full bg-gradient-to-r from-[#C4FF00] to-[#dcff36] px-4 py-1.5 text-sm text-gray-800 font-medium",
+                                className: "rounded-full bg-gradient-to-r from-[#C4FF00] to-[#C4FF00] px-4 py-1.5 text-sm text-gray-800 font-medium",
                                 children: e
                             }, t)))
                         })]
