@@ -14842,10 +14842,13 @@ function qm() {
                                         className: "text-xl font-semibold line-clamp-2 mb-2",
                                         children: e.title
                                     }), b.jsxs("div", {
-                                        className: "flex hover:border-2 p-4 absolute bottom-3 bg-\[\#161719\] rounded-2xl border-gray-900 text-[#C4FF00]",
+                                        className: "flex hover:border-2 p-3 absolute bottom-3 bg-\[\#161719\] rounded-2xl border-gray-900 text-white items-center gap-2" ,
                                         children: [b.jsx("p", {
+                                            className: "font-semibold text-[14px]",
                                             children: "Read More"
-                                        }), " ", b.jsx(Ie, {})]
+                                        }), " ", b.jsx(Ie, {
+                                            className: "text-[12px]"
+                                        })]
                                     })]
                                 })
                             }))))
