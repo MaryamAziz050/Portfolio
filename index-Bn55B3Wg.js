@@ -13520,7 +13520,7 @@ function zp({onSectionChange: e}) {
                     id: "skills",
                     children: b.jsx(Dp, {})
                 }), b.jsx("section", {
-                    className: "h-auto lg:h-screen  w-full sticky -top-32 lg:-top-[90vh]  md:mb-[270px] sm:mb-[220px] mb-[180px] lg:mb-[178px] ",
+                    className: "h-auto lg:h-screen  w-full sticky -top-32 lg:-top-[30vh]  md:mb-[270px] sm:mb-[220px] mb-[180px] lg:mb-0 ",
                     id: "experience",
                     children: b.jsx(Op, {})
                 }), b.jsx("section", {
