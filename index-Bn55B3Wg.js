@@ -13182,7 +13182,7 @@ function Mp() {
                             children: e.alt
                         })]
                     }), b.jsxs("div", {
-                        className: "flex items-center justify-between w-[90%] border-b pb-4 transition-colors duration-300",
+                        className: "flex items-center justify-between w-[100%] border-b pb-4 transition-colors duration-300",
                         children: [b.jsx("h2", {
                             className: "text-xl md:text-3xl lg:text-3xl font-light group-hover:text-[#C4FF00] transition-colors duration-300",
                             children: e.description
