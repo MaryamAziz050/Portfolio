@@ -14544,6 +14544,7 @@ const $m = {
   date: "2025-06-14",
   readingTime: "7 min",
   topic: "SHOPIFY DEVELOPMENT",
+    thumbnail:"./assets/img/Custom Theme.png",
   image: "https://i.ibb.co/rGQsGkPK/6.png",
   content: "Creating a custom Shopify theme from scratch gives you complete control over your store’s look, feel, and functionality. Unlike pre-built themes that often come with unnecessary code, limitations, or difficult-to-edit structures, building from scratch allows you to design a clean, efficient, and fully tailored solution. You can implement exactly what your client needs — lightweight pages, fast loading times, SEO-friendly structure, and full alignment with their brand. By leveraging Shopify’s powerful tools like Liquid, Sections, Snippets, and Schema, developers can create flexible, reusable components that streamline future development and give merchants an intuitive editing experience. From organizing your file structure and using Shopify CLI to building your first custom Section with editable settings, every part of the process is designed to offer more control and better performance. Liquid enables you to combine static HTML with dynamic content, while Schema lets you define merchant-editable options directly in the theme editor. Writing clean, modular, and DRY code not only improves maintainability but also helps optimize performance and SEO. The final result is a future-proof Shopify theme — fast, scalable, customizable, and aligned with the specific needs of your client — delivering a smooth customer experience and a store that stands out from the rest.",
   publishDate: "14 june, 2025",
@@ -14568,6 +14569,7 @@ const $m = {
   date: "2025-06-14",
   readingTime: "7 min",
   topic: "SHOPIFY DEVELOPMENT",
+    thumbnail:"./assets/img/CRO.png",
   image: "https://i.ibb.co/spK1zymH/5.png",
   content: "Your Shopify store’s success isn’t just about attracting traffic — it’s about converting that traffic into paying customers. That’s where Conversion Rate Optimization (CRO) comes in. CRO focuses on improving every stage of the customer journey, from the moment a visitor lands on your homepage to the final “Buy Now” click. By optimizing key areas like call-to-action buttons, product pages, and the checkout process, you can reduce friction and guide users toward completing their purchase. Adding trust-building elements such as reviews, ratings, and testimonials (social proof) also helps influence decisions. Beyond content, performance plays a crucial role — fast-loading pages, responsive design, and custom-built sections tailored to user behavior can significantly enhance the overall shopping experience. When executed properly, CRO strategies boost your store’s revenue by making the most of your existing traffic — no extra ad spend required.",
   publishDate: "14 june, 2025",
@@ -14592,6 +14594,7 @@ const $m = {
   date: "2025-06-14",
   readingTime: "6 min",
   topic: "SHOPIFY DEVELOPMENT",
+    thumbnail:"./assets/img/Speed.png",
   image: "https://i.ibb.co/nMbdHzHr/1.png",
   content: "Slow-loading Shopify stores often face high bounce rates, lower SEO rankings, and poor user experiences — all of which directly impact sales. Whether you’re building a custom theme from scratch or fine-tuning an existing one, optimizing performance is crucial. There are several practical techniques to significantly reduce load times and improve responsiveness. These include minimizing and combining CSS and JavaScript files, enabling lazy loading for images, compressing assets, and removing unused code. Efficient use of Liquid can also cut down on unnecessary rendering and speed up page loads. Additionally, implementing code-splitting, leveraging content delivery networks (CDNs), and using proper caching strategies can ensure content is delivered faster across all regions. Each of these improvements may seem small on its own, but together they create a fast, seamless shopping experience that keeps users engaged, improves conversion rates, and boosts your store’s visibility in search engine results. In our full guide, we’ll break down these techniques step by step, with actionable code examples and best practices to help you optimize your Shopify theme for performance.", 
   publishDate: "14 june, 2025",
@@ -14616,6 +14619,7 @@ const $m = {
   date: "2025-06-14",
   readingTime: "7 min",
   topic: "SHOPIFY DEVELOPMENT",
+    thumbnail:"./assets/img/SEO.png",
   image: "https://i.ibb.co/b5PCB2hy/2.png",
   content: "Improving a Shopify store’s search visibility starts right at the code level. As a developer, you have the power to influence critical SEO factors directly through your theme’s Liquid files. By implementing semantic HTML, clean and descriptive URL structures, canonical tags, and rich snippets, you lay a strong foundation for search engines to understand and rank your site effectively. In this guide, we’ll walk through how to add meaningful title and meta description tags, set up canonical URLs to prevent duplicate content issues, and use Product Schema for enhanced search results with rich snippets like price and availability. We’ll also cover best practices for handling pagination to ensure that category and collection pages are indexed properly. Whether you’re building a custom theme or modifying an existing one, applying these SEO techniques will help your store gain better visibility, attract more organic traffic, and ultimately convert more visitors into customers.",
   publishDate: "14 june, 2025",
@@ -14641,6 +14645,7 @@ const $m = {
   date: "2025-06-14",
   readingTime: "7 min",
   topic: "SHOPIFY DEVELOPMENT",
+thumbnail:"./assets/img/Custom VS Pre-Built.png",
   image: "https://i.ibb.co/JwNxWt5H/4.png",
   content: "When designing a Shopify store, deciding between a custom theme and a pre-built one can be a crucial and sometimes challenging choice. Custom themes provide full control over both design and functionality, making them ideal for creating storefronts that are not only visually unique but also scalable and optimized for performance. Built from the ground up, they ensure clean, maintainable code, faster load times, and long-term adaptability to evolving business needs. On the other hand, pre-built themes are typically more affordable and quicker to launch, offering a variety of built-in design presets and customization options. However, they often come with bloated code, unnecessary features, and limited flexibility — which can become a hurdle when more advanced or brand-specific customization is needed",
   publishDate: "14 june, 2025",
@@ -14666,7 +14671,8 @@ const $m = {
   date: "2025-06-14",
   readingTime: "7 min",
   topic: "SHOPIFY DEVELOPMENT",
-image: "https://i.ibb.co/5hFxwqss/3.png",
+  thumbnail:"./assets/img/BLOG.png",
+  image: "https://i.ibb.co/5hFxwqss/3.png",
   content: "Your Shopify blog has the potential to be a powerful driver of organic traffic — if optimized correctly. Implementing Blog Schema, using custom snippets for rich results, and ensuring SEO-friendly pagination can significantly boost your content’s visibility in search engines. Adding related blog posts not only improves internal linking but also keeps readers engaged longer, reducing bounce rates. With the right use of Liquid and structured Schema markup, you can enhance how your blog content appears in search results — including rich snippets like article titles, publish dates, and author names. In this guide, we’ll walk you through actionable steps to make your Shopify blogs more SEO-friendly and ensure they perform as well as your products in attracting new visitors.", publishDate: "14 june, 2025",
   metaTitle: "Schema, Snippets, and Liquid — Making Your Shopify Blog SEO-Friendly",
   metaDescription: "Learn how to add Blog Schema, custom snippets, SEO pagination, and related blogs to maximize SEO benefits for your Shopify blogs.",
@@ -14826,7 +14832,7 @@ function qm() {
                                 className: "group relative h-[400px] w-[300px] md:w-[350px] "
                             }, b.jsx("img", {
                                 className: "h-full w-full object-cover rounded-3xl transition-transform ",
-                                src: null == e ? void 0 : e.image,
+                                src: null == e ? void 0 : e.thumbnail,
                                 alt: e.title
                             }), b.jsx("div", {
                                 className: "p-4",
