@@ -4400,7 +4400,7 @@ function Ls({activeSection: e}) {
                             })
                         }), b.jsxs(li, {
                             side: "right",
-                            className: "w-full sm:w-[300px] bg-\[\#161719\] backdrop-blur-lg",
+                            className: "w-full sm:w-[300px] bg-\[\#161719\] ",
                             children: [b.jsx(ci, {
                                 className: "border-b border-[#C4FF00] pb-4",
                                 children: b.jsx(ui, {
@@ -4417,7 +4417,7 @@ function Ls({activeSection: e}) {
                                     }
                                     ,
                                     children: b.jsxs("div", {
-                                        className: "flex items-center space-x-4 px-2 py-2 rounded-md transition-colors border-b border-slate-900",
+                                        className: "flex items-center space-x-4 px-2 py-2 rounded-md transition-colors  ",
                                         children: [b.jsx("span", {
                                             className: "text-sm text-[#C4FF00]",
                                             children: e.id
@@ -13155,7 +13155,7 @@ function Mp() {
                         scale: 1.02
                     },
                     children: [b.jsxs("div", {
-                        className: "space-y-2 min-w-80 w-[10%]",
+                        className: "space-y-2 min-w-40 ",
                         children: [b.jsxs("span", {
                             className: "text-sm text-gray-500",
                             children: ["0", t + 1]
@@ -13193,7 +13193,7 @@ function Mp() {
             children: e && b.jsx(yh.img, {
                 src: e.thumbnail,
                 alt: e.alt,
-                className: "fixed border-4 border-gray-900  object-cover pointer-events-none z-10 w-96 rounded-lg shadow-lg",
+                className: "fixed border-4 border-[#C4FF00]  object-cover pointer-events-none z-10 w-96 rounded-lg shadow-lg",
                 style: {
                     left: `${n.x}px`,
                     top: `${n.y}px`,
