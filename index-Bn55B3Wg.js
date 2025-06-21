@@ -3311,7 +3311,7 @@ const ai = A("fixed z-50 gap-4 bg-background p-6 shadow-lg transition ease-in-ou
         children: [b.jsxs(ni, {
             className: "absolute right-4 top-4 rounded-sm opacity-70 ring-offset-background transition-opacity hover:opacity-100 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:pointer-events-none data-[state=open]:bg-secondary",
             children: [b.jsx(qe, {
-                className: "h-4 w-4"
+                className: "h-4 w-4 text-[#C4FF00]"
             }), b.jsx("span", {
                 className: "sr-only",
                 children: "Close"
@@ -4400,15 +4400,15 @@ function Ls({activeSection: e}) {
                             })
                         }), b.jsxs(li, {
                             side: "right",
-                            className: "w-full sm:w-[300px] bg-[#C4FF00] backdrop-blur-lg",
+                            className: "w-full sm:w-[300px] bg-\[\#161719\] backdrop-blur-lg",
                             children: [b.jsx(ci, {
-                                className: "border-b border-white pb-4",
+                                className: "border-b border-[#C4FF00] pb-4",
                                 children: b.jsx(ui, {
-                                    className: "text-left text-gray-800",
+                                    className: "text-left text-[#C4FF00]",
                                     children: "Navigation"
                                 })
                             }), b.jsx("nav", {
-                                className: "flex flex-col space-y-4 mt-8",
+                                className: "flex flex-col space-y-4 mt-8 text-[#C4FF00]",
                                 children: As.map((e => b.jsx(ks, {
                                     to: e.href,
                                     onClick: () => {
@@ -4417,12 +4417,12 @@ function Ls({activeSection: e}) {
                                     }
                                     ,
                                     children: b.jsxs("div", {
-                                        className: "flex items-center space-x-4 px-2 py-2 hover:bg-white active:bg-white rounded-md transition-colors border-b border-slate-900",
+                                        className: "flex items-center space-x-4 px-2 py-2 rounded-md transition-colors border-b border-slate-900",
                                         children: [b.jsx("span", {
-                                            className: "text-sm text-gray-800",
+                                            className: "text-sm text-[#C4FF00]",
                                             children: e.id
                                         }), b.jsx("span", {
-                                            className: "text-base font-bold text-gray-800",
+                                            className: "text-base font-bold text-[#C4FF00]",
                                             children: e.name
                                         })]
                                     })
@@ -13022,18 +13022,21 @@ const Tp = "/assets/img/Prolonlife-full-page.png"
   , Rp = [{
     id: 1,
     src: kp,
+    thumbnail: "./assets/img/MOX.png",
     alt: "Moxielash",
     description: "Moxielash - E-commerce Store",
     slug: "moxielash-ecommerce-store"
 }, {
     id: 2,
     src: Pp,
+    thumbnail: "./assets/img/LN.png",
     alt: "L-Nutura-Health",
     description: "L-Nutura-Health - E-commerce Store",
     slug: "l-nutura-health-ecommerce-store"
 }, {
     id: 3,
     src: Tp,
+    thumbnail: "./assets/img/pro.png",
     alt: "Prolonlife",
     description: "Prolonlife - E-commerce Store",
     slug: "prolonlife-ecommerce-store"
@@ -13107,7 +13110,7 @@ function Mp() {
                 },
                 className: "mb-10 flex items-center justify-between w-full",
                 children: [b.jsxs("div", {
-                    className: "",
+                    className: "w-[60%]",
                     children: [b.jsx("h2", {
                         className: "text-[#C4FF00] text-4xl font-bold",
                         children: "FEATURED PROJECTS"
@@ -13116,7 +13119,7 @@ function Mp() {
                         children: "Selected Works"
                     })]
                 }), b.jsxs(ks, {
-                    className: "flex gap-2 hover:border-b border-[#C4FF00] hover:text-[#C4FF00]",
+                    className: "flex gap-2 hover:border-b  border-[#C4FF00] hover:text-[#C4FF00]",
                     to: "/projects",
                     children: ["See All Projects", b.jsx(yh.div, {
                         whileHover: {
@@ -13134,7 +13137,7 @@ function Mp() {
                 className: "space-y-8 w-full h-full relative",
                 onMouseLeave: c,
                 children: Rp.map(( (e, t) => b.jsxs(yh.div, {
-                    className: "cursor-pointer flex flex-col md:flex-row items-start justify-between gap-4 group",
+                    className: "cursor-pointer flex flex-col md:flex-row items-start justify-between gap-2 group",
                     onMouseEnter: () => l(e),
                     initial: {
                         opacity: 0,
@@ -13152,7 +13155,7 @@ function Mp() {
                         scale: 1.02
                     },
                     children: [b.jsxs("div", {
-                        className: "space-y-2 min-w-80",
+                        className: "space-y-2 min-w-80 w-[10%]",
                         children: [b.jsxs("span", {
                             className: "text-sm text-gray-500",
                             children: ["0", t + 1]
@@ -13161,7 +13164,7 @@ function Mp() {
                             children: e.alt
                         })]
                     }), b.jsxs("div", {
-                        className: "flex items-center justify-between w-full border-b pb-4 transition-colors duration-300",
+                        className: "flex items-center justify-between w-[90%] border-b pb-4 transition-colors duration-300",
                         children: [b.jsx("h2", {
                             className: "text-xl md:text-3xl lg:text-3xl font-light group-hover:text-[#C4FF00] transition-colors duration-300",
                             children: e.description
@@ -13188,9 +13191,9 @@ function Mp() {
             })]
         }), b.jsx(jh, {
             children: e && b.jsx(yh.img, {
-                src: e.src,
+                src: e.thumbnail,
                 alt: e.alt,
-                className: "fixed border-4 border-[#dcff36]  object-cover pointer-events-none z-10 w-96 rounded-lg shadow-lg",
+                className: "fixed border-4 border-gray-900  object-cover pointer-events-none z-10 w-96 rounded-lg shadow-lg",
                 style: {
                     left: `${n.x}px`,
                     top: `${n.y}px`,
@@ -13289,8 +13292,8 @@ function Dp() {
                         variants: n,
                         className: "space-y-2 text-center",
                         children: [b.jsx("p", {
-                            className: "text-4xl font-bold text-[#C4FF00]",
-                            children: "🎉 SUPERPOWER 🎉"
+                            className: "text-2xl sm:text-4xl font-bold text-[#C4FF00]",
+                            children: "🎉SUPERPOWER🎉"
                         }), b.jsx("p", {
                             className: "text-sm font-bold text-[#bababb]",
                             children: "which I have"
@@ -13345,7 +13348,7 @@ const Markloops="./assets/img/markloops_logo-Photoroom.png", ConversionsKing="./
 ];
 function Op() {
     return b.jsx("section", {
-        className: "min-h-auto bg-[#F2F2F4] py-24 px-4 sm:px-6 lg:px-8 rounded-t-[80px]",
+        className: "min-h-screen bg-[#F2F2F4] py-24 px-4 sm:px-6 lg:px-8 rounded-t-[80px]",
         children: b.jsxs("div", {
             className: "max-w-6xl mx-auto",
             children: [b.jsx(yh.h2, {
@@ -13501,6 +13504,7 @@ function zp({onSectionChange: e}) {
     ), [e]),
     b.jsx(Ep, {
         root: !0,
+        className: "max-w-[1440px]",
         children: b.jsx("main", {
             children: b.jsxs("article", {
                 children: [b.jsx("section", {
@@ -13516,7 +13520,7 @@ function zp({onSectionChange: e}) {
                     id: "skills",
                     children: b.jsx(Dp, {})
                 }), b.jsx("section", {
-                    className: "h-auto sm:h-auto w-full sticky -top-[120%] md:top-0 mb-[180px] md:mb-0",
+                    className: "h-auto lg:h-screen  w-full sticky -top-32 lg:-top-[90vh]  md:mb-[270px] sm:mb-[220px] mb-[180px] lg:mb-[178px] ",
                     id: "experience",
                     children: b.jsx(Op, {})
                 }), b.jsx("section", {
@@ -14351,6 +14355,7 @@ const Bm = ({setActiveSection: e}) => b.jsxs("div", {
 "Shopify", "Liquid", "HTML", "CSS", "Tailwind CSS", "JavaScript", "Shopify Theme Customizer", "Third-party Chat Integration"  ],
   liveLink: "https://www.moxielash.com/",
   image: kp,
+  thumbnail:"./assets/imag/MOX.png",
   startDate: "Apr 2023",
   endDate: "Aug 2024"
 }
@@ -14376,6 +14381,7 @@ const Bm = ({setActiveSection: e}) => b.jsxs("div", {
   ],
   liveLink: "https://prolon.eu/",
   image: Tp,
+  thumbnail:"./assets/imag/pro.png",
   startDate: "Jul 2023",
   endDate: "Feb 2025"
 }
@@ -14404,6 +14410,7 @@ const Bm = ({setActiveSection: e}) => b.jsxs("div", {
   ],
   liveLink: "",
   image: Pp,
+  thumbnail:"./assets/imag/LN.png",
   startDate: "Jan 2024",
   endDate: "Apr 2025"
 }
