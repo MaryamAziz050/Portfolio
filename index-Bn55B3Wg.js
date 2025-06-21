@@ -4400,7 +4400,7 @@ function Ls({activeSection: e}) {
                             })
                         }), b.jsxs(li, {
                             side: "right",
-                            className: "w-full sm:w-[300px] bg-\[\#161719\] ",
+                            className: "w-full sm:w-[300px] bg-\[\#161719\] border-l border-transparent",
                             children: [b.jsx(ci, {
                                 className: "border-b border-[#C4FF00] pb-4",
                                 children: b.jsx(ui, {
@@ -13019,6 +13019,8 @@ function jp() {
 const Tp = "/assets/img/Prolonlife-full-page.png"
   , kp = "/assets/img/Moxielash-full-page.png"
   , Pp = "/assets/img/L-Nutura-Health-full-page.png"
+  , Sx = "/assets/img/soontra.png"
+  , Sz = "/assets/img/Sehgal Motorsports.png"
   , Rp = [{
     id: 1,
     src: kp,
@@ -13040,7 +13042,23 @@ const Tp = "/assets/img/Prolonlife-full-page.png"
     alt: "Prolonlife",
     description: "Prolonlife - E-commerce Store",
     slug: "prolonlife-ecommerce-store"
-}];
+
+},
+{    id: 4,
+    src: Sx,
+    thumbnail: "./assets/img/SA.png",
+    alt: "Soontra",
+    description: "Soontra - E-commerce Store",
+    slug: "soontra-ecommerce-store"
+}, {
+    id: 5,
+    src: Sz,
+    thumbnail: "./assets/img/SM.png",
+    alt: "Sehgal Motorsports",
+    description: "Sehgal Motorsports - E-commerce Store",
+    slug: "sehgal-motorsports-ecommerce-store"
+}
+];
 function Mp() {
     const [e,t] = s.useState(null)
       , [n,i] = s.useState({
@@ -13520,7 +13538,7 @@ function zp({onSectionChange: e}) {
                     id: "skills",
                     children: b.jsx(Dp, {})
                 }), b.jsx("section", {
-                    className: "h-auto lg:h-screen  w-full sticky -top-32 lg:-top-[30vh]  md:mb-[270px] sm:mb-[220px] mb-[180px] lg:mb-0 ",
+                    className: "h-auto lg:h-screen  w-full sticky -top-32 lg:top-[-40vh]  md:mb-[270px] sm:mb-[220px] mb-[180px] lg:mb-0 ",
                     id: "experience",
                     children: b.jsx(Op, {})
                 }), b.jsx("section", {
@@ -14413,7 +14431,59 @@ const Bm = ({setActiveSection: e}) => b.jsxs("div", {
   thumbnail:"./assets/imag/LN.png",
   startDate: "Jan 2024",
   endDate: "Apr 2025"
+},
+{
+  brand: "Soontra",
+  name: "Soontra – Custom Shopify Store Development",
+  slug: "soontra-ecommerce-store",
+  description: "Built a custom Shopify store for Soontra, a premium supplement brand focused on mental clarity and energy. Emphasized Conversion Rate Optimization (CRO) and user experience through strategic layout, persuasive product storytelling, and modular design. The store is fully responsive and easily editable via Shopify customizer, empowering the internal team to manage content effortlessly.",
+  features: [
+    "Custom design aligned with Soontra's performance-focused branding",
+    "CRO-focused layout and product storytelling for higher conversions",
+    "Modular custom sections and upsell-ready product pages",
+    "Fully responsive and speed-optimized across all devices",
+    "Editable architecture using Shopify customizer for easy updates"
+  ],
+  techStack: [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Liquid",
+    "Shopify",
+    "Tailwind CSS"
+  ],
+  liveLink: "https://soontra.com/",
+  image: Sx, 
+  startDate: "Feb 2024",
+  endDate: "May 2025"
+},
+{
+  brand: "Sehgal Motorsports",
+  name: "Sehgal Motorsports – Custom Shopify Store Development",
+  slug: "sehgal-motorsports-ecommerce-store",
+  description: "Built a custom Shopify store for Sehgal Motorsports, Pakistan’s premier automotive hub offering new & used cars, accessories, PPF/PPF, modifications, and window film services. The focus was on Conversion Rate Optimization (CRO), seamless product discovery across 15k+ SKUs, and a responsive UI for both car shoppers and aftermarket accessory buyers. The store is fully editable via Shopify customizer to accommodate frequent catalog updates.",
+  features: [
+    "Custom design reflecting automotive and motorsports branding",
+    "CRO-centric layout: clear CTAs, category filters, upsells & flash sales",
+    "Comprehensive product catalogs & filters (cars, mods, accessories)",
+    "Responsive, speed‑optimized and user‑friendly on all devices",
+    "Editable via Shopify customizer for easy content & product updates"
+  ],
+  techStack: [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Liquid",
+    "Shopify",
+    "Tailwind CSS"
+  ],
+  liveLink: "https://sehgalmotorsports.pk/",
+  image: Sz, 
+  startDate: "Mar 2024",
+  endDate: "Jul 2025"
 }
+
+
 ];
 const Wm = {
     variants: {
