@@ -14426,7 +14426,7 @@ const Bm = ({setActiveSection: e}) => b.jsxs("div", {
     "Shopify",
     "Tailwind CSS"
   ],
-  liveLink: "",
+  liveLink: "#",
   image: Pp,
   thumbnail:"./assets/imag/LN.png",
   startDate: "Jan 2024",
@@ -15466,7 +15466,7 @@ b.jsxs(b.Fragment, {
                                 className: "text-3xl font-bold mb-4",
                                 children: "Links"
                             }), b.jsx("a", {
-                                href: `https://${t.liveLink}`,
+                                href: `${t.liveLink}`,
                                 target: "_blank",
                                 rel: "noopener noreferrer",
                                 className: "inline-block bg-[#C4FF00] text-gray-800 px-6 py-3 rounded-full font-semibold hover:bg-[#dcff36] transition-colors",
